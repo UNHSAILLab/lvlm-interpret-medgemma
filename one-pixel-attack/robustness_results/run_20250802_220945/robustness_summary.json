@@ -1,0 +1,11 @@
+{
+  "total_samples": 5,
+  "baseline_accuracy": 0.4,
+  "attack_accuracy": 0.6,
+  "accuracy_drop": -0.19999999999999996,
+  "attack_success_rate": 0.2,
+  "targeted_success_rate": 0.0,
+  "avg_confidence_baseline": 0.95,
+  "avg_confidence_attack": 0.95,
+  "confidence_drop": 0.0
+}
