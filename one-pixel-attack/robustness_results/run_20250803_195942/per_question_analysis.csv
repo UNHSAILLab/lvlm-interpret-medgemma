@@ -1,0 +1,18 @@
+question_baseline,baseline_accuracy,preprocessed_accuracy,attack_accuracy,preprocessing_effect,attack_effect,total_effect
+"Based on the chest X-ray images, which of the following statements is correct regarding the presence of pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the chest X-ray images and the clinical indication of dyspnea and COVID pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the chest X-ray images, what is the most likely conclusion regarding the presence of pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of mild bibasilar atelectasis/pneumonia and small pleural effusions, what is a possible clinical diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of minimal central bronchial wall interstitial thickening and a history of recent pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+How does the area of suspected pneumonia in the left lower lobe appear on the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+What is the distribution of pneumonia observed in the right lung on this chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+What is the finding regarding pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the location of the pneumonia observed on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the status of the previously demonstrated right lower lobe pneumonia on the current chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the focal opacity concerning for pneumonia located on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the opacity compatible with pneumonia located on this chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+Where is the opacity suspicious for pneumonia located on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the stable opacity consistent with pneumonia located on the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the subtle density that may represent an area of pneumonia located on the chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+Which of the following best describes the location of the pneumonia observed on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Which of the following statements is correct regarding the presence of pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0

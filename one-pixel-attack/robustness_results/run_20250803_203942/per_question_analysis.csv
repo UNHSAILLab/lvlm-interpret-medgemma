@@ -1,0 +1,71 @@
+question_baseline,baseline_accuracy,preprocessed_accuracy,attack_accuracy,preprocessing_effect,attack_effect,total_effect
+"Based on the chest X-ray images, what is the most likely conclusion regarding pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the chest X-ray images, what is the most likely diagnosis regarding pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the chest X-ray images, what underlying condition is suggested in addition to multilobar pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the chest X-ray images, which of the following statements is correct regarding the presence of alveolar pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the chest X-ray images, which of the following statements is correct regarding the presence of pneumonia or effusion?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the chest X-ray images, which of the following statements is correct regarding the presence of pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the current chest X-ray findings, what is the most likely clinical status regarding pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Based on the lateral chest X-ray view, what finding is suggested that raises concern for mild pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the chest X-ray images and the clinical history of cough with Covid pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the chest X-ray images and the clinical indication of dyspnea and COVID pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the chest X-ray images, what is the most likely conclusion regarding the presence of pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the clinical history of pneumonia and fever, what is the most likely diagnosis based on the chest X-ray images?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the clinical history of pneumonia, pleural effusion, cough, and congestion, what is the most likely diagnosis for this 4-year-old male patient based on the chest X-ray images?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the clinical history of post line placement and nosocomial pneumonia, what is the most likely diagnosis for the lung findings on this chest X-ray?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the clinical indication of cough and pneumonia, what is the most likely diagnosis based on the chest X-ray images?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of airway thickening without focal pneumonia, what is the most likely clinical diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of atelectasis and pneumonia in the right lower lung, what is the most likely clinical diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of bilateral lower lobe atelectasis or atelectatic pneumonia, what is a potential clinical diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of mild bibasilar atelectasis/pneumonia and small pleural effusions, what is a possible clinical diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the findings of minimal central bronchial wall interstitial thickening and a history of recent pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the presence of a moderate right pleural effusion and recent diagnosis of pneumonia, what is a potential differential diagnosis?",0.0,0.0,0.0,0.0,0.0,0.0
+"Given the recent history of pneumonia, what is the most likely diagnosis for the left lung base findings on this chest X-ray?",1.0,1.0,1.0,0.0,0.0,0.0
+"Given the widespread airspace opacity and the clinical indication of MELLO19 positive with pneumonia, what is the most likely diagnosis?",1.0,1.0,1.0,0.0,0.0,0.0
+How does the area of suspected pneumonia in the left lower lobe appear on the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Is there any evidence of pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+"What additional condition, besides pneumonia, is considered for the increased density at the lung bases?",1.0,1.0,1.0,0.0,0.0,0.0
+What additional lung lobe may be involved in the pneumonia observed on this chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+What condition might be superimposed on the findings of bibasilar pneumonia according to the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+What finding is compatible with interstitial pneumonia or interstitial edema on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What finding is consistent with pneumonia in the right lower lobe on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What finding is consistent with resolving pneumonia in the right upper lobe on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What finding is noted on the chest X-ray that could suggest right middle lobe pneumonia?,1.0,1.0,1.0,0.0,0.0,0.0
+What finding on the chest X-ray suggests the presence of pneumonia?,1.0,1.0,1.0,0.0,0.0,0.0
+What is another possible diagnosis for the left lower lung zone infiltrate besides pneumonia?,0.0,0.0,0.0,0.0,0.0,0.0
+What is another potential diagnosis for the left basilar airspace opacity besides pneumonia?,0.0,0.0,0.0,0.0,0.0,0.0
+"What is another potential diagnosis for the new mild hazy opacities in the bilateral upper lobes, aside from pneumonia?",0.0,1.0,1.0,1.0,0.0,1.0
+"What is another potential diagnosis for the small nodular opacity at the right lung base, aside from pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+What is the correct statement regarding the presence of alveolar edema or pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the current status of the previously noted pneumonia in the right upper lobe?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the current status of the right upper lobe pneumonia as seen on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the distribution of pneumonia observed in the right lung on this chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+What is the distribution of the pneumonia observed on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the finding regarding pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the finding related to pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the location and distribution of the dense bronchopneumonia observed on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the location of the opacities concerning for pneumonia on this chest X-ray?,1.0,0.0,0.0,-1.0,0.0,-1.0
+What is the location of the pneumonia observed on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the location of the pneumonia observed on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the most likely diagnosis based on the absence of focal pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the status of pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+What is the status of the previously demonstrated right lower lobe pneumonia on the current chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+"What other condition could the coarse interstitial markings in the right lower lobe suggest, aside from early interstitial pneumonia?",1.0,1.0,1.0,0.0,0.0,0.0
+What specific finding on the chest X-ray suggests the presence of pneumonia?,0.0,0.0,0.0,0.0,0.0,0.0
+Where are the coarse lung markings suggesting atelectasis or early pneumonia most prominently observed on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the atelectasis or pneumonia located on this chest X-ray?,1.0,0.0,0.0,-1.0,0.0,-1.0
+Where is the focal opacity concerning for pneumonia located on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the increased density concerning for pneumonia or aspiration located on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the infiltrate/pneumonia located on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the opacity compatible with pneumonia located on this chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+Where is the opacity suspicious for pneumonia located on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the patchy airspace disease suggesting pneumonia located on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the pneumonia located in the lungs as observed on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the pneumonia located on the chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Where is the pneumonia located on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the stable opacity consistent with pneumonia located on the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Where is the subtle density that may represent an area of pneumonia located on the chest X-ray?,0.0,0.0,0.0,0.0,0.0,0.0
+Which lung finding is consistent with pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0
+Which of the following best describes the location of the pneumonia observed on this chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Which of the following best describes the location of the recurrent infiltrate/pneumonia observed on the chest X-ray?,0.0,1.0,1.0,1.0,0.0,1.0
+Which of the following statements is correct regarding the presence of pneumonia on this chest X-ray?,1.0,1.0,1.0,0.0,0.0,0.0

@@ -1,0 +1,64 @@
+question_baseline,baseline_accuracy,preprocessed_accuracy,attack_accuracy,preprocessing_effect,attack_effect,total_effect
+is the pleural effusion bilateral?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there air collection?,1.0,1.0,1.0,0.0,0.0,0.0
+is there atelectasis in the bibasilar area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there atelectasis in the left base area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there atelectasis in the right base area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there atelectasis in the right lower lobe area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there atelectasis?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there bronchiectasis?,0.0,0.0,0.0,0.0,0.0,0.0
+is there calcification?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there cardiomegaly in the lungs area?,0.0,0.0,0.0,0.0,0.0,0.0
+is there cardiomegaly in the mediastinal area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there cardiomegaly?,0.0,0.0,0.0,0.0,0.0,0.0
+is there consolidation?,0.75,0.0,0.75,-0.75,0.75,0.0
+is there edema?,0.5,0.0,0.5,-0.5,0.5,0.0
+is there effusion?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there elongation of the descending aorta?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of atelectasis in this image?,0.8,0.0,0.8,-0.8,0.8,0.0
+is there evidence of cardiomegaly in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of consolidation in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of demineralization in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of edema in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of effusion in this image?,1.0,1.0,1.0,0.0,0.0,0.0
+is there evidence of fluid overload in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of fracture in this image?,1.0,1.0,1.0,0.0,0.0,0.0
+is there evidence of hyperinflation in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of metastasis in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of opacity in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of pleural effusion in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of pleural thickening in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of pneumonia in this image?,0.0,0.0,0.0,0.0,0.0,0.0
+is there evidence of pneumothorax in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of pulmonary edema in this image?,0.3333333333333333,0.0,0.3333333333333333,-0.3333333333333333,0.3333333333333333,0.0
+is there evidence of pulmonary emphysema in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there evidence of vascular congestion in this image?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there fracture in the right rib area?,1.0,1.0,1.0,0.0,0.0,0.0
+is there fracture in the right-sided rib area?,1.0,1.0,1.0,0.0,0.0,0.0
+is there free subdiaphragmatic gas?,0.0,0.0,0.0,0.0,0.0,0.0
+is there granuloma?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there hernia?,1.0,1.0,1.0,0.0,0.0,0.0
+is there hyperexpanded lung?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there intrathoracic process?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there kyphosis?,1.0,1.0,1.0,0.0,0.0,0.0
+is there opacity in the left hemithorax area?,0.0,0.0,0.0,0.0,0.0,0.0
+is there opacity in the right basilar area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there opacity?,1.0,0.5,1.0,-0.5,0.5,0.0
+is there pleural effusion in the right area?,0.0,0.0,0.0,0.0,0.0,0.0
+"is there pleural effusion in the right,left area?",1.0,0.0,1.0,-1.0,1.0,0.0
+is there pleural effusion?,1.0,0.2,1.0,-0.8,0.8,0.0
+is there pleural parenchymal scarring in the biapical area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there pleural thickening in the biapical area?,0.0,0.0,0.0,0.0,0.0,0.0
+is there pleural thickening?,0.0,0.0,0.0,0.0,0.0,0.0
+is there pneumonia in the left upper lobe area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there pneumonia?,0.0,0.0,0.0,0.0,0.0,0.0
+is there pneumothorax in the left apical area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there pneumothorax in the right area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there pneumothorax?,1.0,0.3333333333333333,1.0,-0.6666666666666667,0.6666666666666667,0.0
+is there pulmonary arterial hypertension?,0.0,0.0,0.0,0.0,0.0,0.0
+is there pulmonary edema?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there scarring in the both lung apices area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there subcutaneous emphysema?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there tortuosity of the thoracic aorta?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there vascular congestion in the pulmonary area?,1.0,0.0,1.0,-1.0,1.0,0.0
+is there vascular redistribution in the lower zone area?,0.0,0.0,0.0,0.0,0.0,0.0

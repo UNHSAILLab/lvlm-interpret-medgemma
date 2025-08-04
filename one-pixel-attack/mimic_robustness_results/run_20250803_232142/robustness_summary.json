@@ -1,0 +1,15 @@
+{
+  "total_samples": 5,
+  "baseline_accuracy": 0.0,
+  "attack_accuracy": 0.0,
+  "accuracy_drop": 0.0,
+  "attack_success_rate": 0.8,
+  "targeted_success_rate": 0,
+  "avg_confidence_baseline": 0.95,
+  "avg_confidence_attack": 0.19,
+  "confidence_drop": 0.76,
+  "preprocessed_accuracy": 0.0,
+  "avg_confidence_preprocessed": 0.95,
+  "preprocessing_effect": 0.0,
+  "attack_effect": 0.0
+}

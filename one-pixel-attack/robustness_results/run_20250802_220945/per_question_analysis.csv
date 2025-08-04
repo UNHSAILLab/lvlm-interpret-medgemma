@@ -1,0 +1,6 @@
+question_baseline,baseline_accuracy,attack_accuracy,accuracy_drop
+What is the distribution of pneumonia observed in the right lung on this chest X-ray?,0.0,0.0,0.0
+What is the finding regarding pneumonia on this chest X-ray?,1.0,1.0,0.0
+What is the location of the pneumonia observed on this chest X-ray?,1.0,1.0,0.0
+Where is the stable opacity consistent with pneumonia located on the chest X-ray?,0.0,1.0,-1.0
+Where is the subtle density that may represent an area of pneumonia located on the chest X-ray?,0.0,0.0,0.0

@@ -1,0 +1,6 @@
+question_baseline,baseline_accuracy,preprocessed_accuracy,attack_accuracy,preprocessing_effect,attack_effect,total_effect
+is there air collection?,1.0,1.0,0.0,0.0,-1.0,-1.0
+is there fracture in the right rib area?,1.0,1.0,0.0,0.0,-1.0,-1.0
+is there fracture in the right-sided rib area?,1.0,1.0,1.0,0.0,0.0,0.0
+is there hernia?,1.0,1.0,1.0,0.0,0.0,0.0
+is there pleural effusion?,1.0,1.0,1.0,0.0,0.0,0.0

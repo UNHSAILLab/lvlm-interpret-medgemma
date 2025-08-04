@@ -1,0 +1,15 @@
+{
+  "total_samples": 98,
+  "baseline_accuracy": 0.8163265306122449,
+  "attack_accuracy": 0.8979591836734694,
+  "accuracy_drop": -0.08163265306122447,
+  "attack_success_rate": 0.12244897959183673,
+  "targeted_success_rate": 0.025,
+  "avg_confidence_baseline": 0.9311224489795917,
+  "avg_confidence_attack": 0.9372448979591838,
+  "confidence_drop": -0.006122448979592021,
+  "preprocessed_accuracy": 0.8979591836734694,
+  "avg_confidence_preprocessed": 0.936734693877551,
+  "preprocessing_effect": 0.08163265306122447,
+  "attack_effect": 0.0
+}
