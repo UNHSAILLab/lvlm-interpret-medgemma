@@ -1,0 +1,61 @@
+================================================================================
+MEDGEMMA VISUALIZER - BATCH ANALYSIS REPORT
+================================================================================
+Generated: 2025-08-25 12:34:55
+Number of samples: 100
+
+1. ANSWER ACCURACY
+----------------------------------------
+Overall Accuracy: 74.0%
+Accuracy by Ground Truth:
+  - no: 77.6%
+  - yes: 70.6%
+
+2. ATTENTION QUALITY METRICS
+----------------------------------------
+Inside Body Ratio:
+  Mean: 1.000 ± 0.000
+  Median: 1.000 (Q25: 1.000, Q75: 1.000)
+  Target: ≥ 0.7 [✓ PASS]
+
+Border Fraction:
+  Mean: 0.000 ± 0.000
+  Median: 0.000 (Q25: 0.000, Q75: 0.000)
+  Target: ≤ 0.05 [✓ PASS]
+
+Attention Entropy:
+  Mean: 4.947 ± 0.056
+  Median: 4.946 (Q25: 4.902, Q75: 4.985)
+  Target: ≤ 3.0 [✗ FAIL]
+
+3. REGIONAL ATTENTION DISTRIBUTION
+----------------------------------------
+Left Fraction: 0.481
+Right Fraction: 0.519
+Apical Fraction: 0.458
+Basal Fraction: 0.079
+
+4. PROMPT SENSITIVITY ANALYSIS
+----------------------------------------
+JS Divergence: 0.255 ± 0.044
+Answer Consistency: 54.7%
+
+5. FAITHFULNESS VALIDATION
+----------------------------------------
+No faithfulness metrics computed
+
+6. METHOD SUCCESS RATES
+----------------------------------------
+Token Gradcam Single Success: 0.0%
+Token Cross Attention Success: 100.0%
+
+7. SUMMARY
+----------------------------------------
+Key Findings:
+  - ◐ Moderate accuracy (74.0%)
+  - ✓ Good attention focus (inside body: 1.000)
+  - ✗ Sensitive to prompt variations (JS: 0.255)
+
+================================================================================
+END OF REPORT
+================================================================================

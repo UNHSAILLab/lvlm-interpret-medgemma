@@ -1,0 +1,84 @@
+================================================================================
+ATTENTION CHANGE ANALYSIS FOR PHRASING VARIATIONS
+================================================================================
+Generated: 2025-08-25 22:04:25
+
+SUMMARY STATISTICS
+----------------------------------------
+Cases analyzed: 10
+Total comparisons: 14
+
+ATTENTION DIVERGENCE METRICS
+----------------------------------------
+JS Divergence: 0.118 ± 0.023
+  Range: [0.068, 0.166]
+Correlation: 0.932 ± 0.030
+  Range: [0.867, 0.970]
+Cosine Similarity: 0.956 ± 0.020
+
+CASE DETAILS
+----------------------------------------
+
+Case 1: is the pleural effusion bilateral?
+  Ground Truth: yes
+  Baseline Answer: yes
+
+  Variant (synonym replacement):
+    Question: Is the pleural effusion present on both sides?...
+    Answer Changed: yes → no
+    JS Divergence: 0.119
+    Correlation: 0.937
+
+  Variant (phrasing variation + synonym replacement):
+    Question: Does the pleural effusion involve both pleural spaces?...
+    Answer Changed: yes → no
+    JS Divergence: 0.125
+    Correlation: 0.937
+
+Case 2: is there cardiomegaly in the mediastinal area?
+  Ground Truth: yes
+  Baseline Answer: no
+
+  Variant (voice change):
+    Question: Can an enlarged heart be seen in the mediastinal area?...
+    Answer Changed: no → yes
+    JS Divergence: 0.125
+    Correlation: 0.916
+
+Case 3: is there cardiomegaly?
+  Ground Truth: yes
+  Baseline Answer: yes
+
+  Variant (phrasing variation):
+    Question: Is cardiomegaly present?...
+    Answer Changed: yes → no
+    JS Divergence: 0.068
+    Correlation: 0.970
+
+  Variant (synonym replacement):
+    Question: Is the heart enlarged?...
+    Answer Changed: yes → no
+    JS Divergence: 0.139
+    Correlation: 0.878
+
+Case 4: is there evidence of atelectasis in this image?
+  Ground Truth: no
+  Baseline Answer: yes
+
+  Variant (Clause reordering):
+    Question: In this image, is there any evidence of atelectasis?...
+    Answer Changed: yes → no
+    JS Divergence: 0.124
+    Correlation: 0.943
+
+Case 5: is there evidence of demineralization in this image?
+  Ground Truth: yes
+  Baseline Answer: no
+
+  Variant (voice change):
+    Question: Is demineralization present in this image?...
+    Answer Changed: no → yes
+    JS Divergence: 0.104
+    Correlation: 0.956
+
+================================================================================

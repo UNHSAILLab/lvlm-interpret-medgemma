@@ -1,0 +1,19 @@
+{
+  "index": 18,
+  "study_id": "fa771fa1-d9571d07-bff8f655-327734a7-6e10b29d",
+  "question": "is there free subdiaphragmatic gas?",
+  "ground_truth": "no",
+  "full_generated_text": "yes",
+  "extracted_answer": "yes",
+  "generated_text_truncated": "yes\n",
+  "is_correct": false,
+  "answer_in_text": false,
+  "attention_entropy": 4.9143476486206055,
+  "regional_focus": "lower_left",
+  "inside_body_ratio": 0.999999918898339,
+  "border_fraction": 0.0,
+  "left_fraction": 0.2686050154722978,
+  "right_fraction": 0.7313949034260411,
+  "apical_fraction": 0.5194982256233298,
+  "basal_fraction": 0.20965618262476549
+}

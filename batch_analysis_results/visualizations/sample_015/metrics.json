@@ -1,0 +1,19 @@
+{
+  "index": 15,
+  "study_id": "cfb03587-782edf6c-1bf392e1-98196cd5-365d69e8",
+  "question": "is there vascular redistribution in the lower zone area?",
+  "ground_truth": "no",
+  "full_generated_text": "yes",
+  "extracted_answer": "yes",
+  "generated_text_truncated": "yes\n",
+  "is_correct": false,
+  "answer_in_text": false,
+  "attention_entropy": 5.030865669250488,
+  "regional_focus": "lower_left",
+  "inside_body_ratio": 0.9999998991106543,
+  "border_fraction": 0.0,
+  "left_fraction": 0.5557811074704446,
+  "right_fraction": 0.4442187916402097,
+  "apical_fraction": 0.48179658538609793,
+  "basal_fraction": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "index": 11,
+  "study_id": "2a2277a9-b0ded155-c0de8eb9-c124d10e-82c5caab",
+  "question": "is there fracture in the right-sided rib area?",
+  "ground_truth": "no",
+  "full_generated_text": "no",
+  "extracted_answer": "no",
+  "generated_text_truncated": "no\n",
+  "is_correct": true,
+  "answer_in_text": true,
+  "attention_entropy": 4.986507415771484,
+  "regional_focus": "lower_left",
+  "inside_body_ratio": 0.9999999416243257,
+  "border_fraction": 0.0,
+  "left_fraction": 0.45261571629638153,
+  "right_fraction": 0.5473842253279442,
+  "apical_fraction": 0.31510920831920497,
+  "basal_fraction": 0.12730596760813293
+}

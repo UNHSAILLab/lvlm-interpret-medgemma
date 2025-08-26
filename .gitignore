@@ -14,3 +14,4 @@ build/
 .env
 *.env
 /.claude/
+/ADVISOR_FEEDBACK_PLAN.md
