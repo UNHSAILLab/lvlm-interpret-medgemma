@@ -1,8 +1,0 @@
-{
-  "total_samples": 100,
-  "correct_extraction": 74,
-  "answer_in_text_but_wrong": 0,
-  "uncertain_answers": 0,
-  "accuracy_original": 0.74,
-  "potential_accuracy": 0.74
-}

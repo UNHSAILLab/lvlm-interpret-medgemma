@@ -1,78 +1,83 @@
-# MedGemma-Interpret: Interpretability for Medical Vision-Language Models
-
-An interpretability tool for MedGemma models, specifically adapted for chest X-ray analysis with transparent attention visualization.
+# LVLM Interpretation - Medical Vision-Language Models on MIMIC-CXR
 
 ## Overview
+This repository contains analysis and visualization tools for two medical vision-language models:
+- **MedGemma** - Google's medical vision-language model
+- **LLaVA-Rad** - Radiology-specific LLaVA model
 
-This repository implements attention visualization and interpretability techniques for Google's MedGemma-4B model, focusing on chest X-ray analysis. The work is based on the LVLM-Interpret framework and adapted specifically for medical imaging applications using MedGemma Architecture.
+Both models are evaluated on the **MIMIC-CXR dataset** (chest X-rays).
 
+## Project Structure
 
-## Key Adaptations for MedGemma
+### Model-Specific Visualizers
+- `medgemma_app.py` - Main MedGemma application interface
+- `medgemma_visualizer.py` - MedGemma attention visualization
+- `medgemma_mimic_analyzer.py` - MedGemma analysis on MIMIC-CXR dataset
+- `medgemma_relevancy_analyzer.py` - MedGemma relevancy analysis
+- `llavarad_visualizer.py` - LLaVA-Rad attention visualization
 
-This implementation includes several medical-specific adaptations:
+### Comparison & Analysis Tools
+- `attention_comparison_visualizer.py` - Compares attention patterns between models
+- `phrasing_results_visualizer.py` - Analyzes impact of question phrasing
+- `plot_generator_saved_data.py` - Generates plots from saved results
+- `report_generator_comprehensive.py` - Creates comprehensive comparison reports
 
-1. **Medical Domain Focus**: Specifically optimized for chest X-ray interpretation using MedGemma-4B
-2. **Clinical Relevancy Maps**: Multiple attention visualization methods tailored for medical imaging:
-   - Raw attention heatmaps
-   - Layer-weighted relevancy 
-   - Head importance analysis
-   - Attention flow visualization
-   - Consensus relevancy combining multiple methods
+### Data Processing
+- `results_processor.py` - Processes completed analysis results
+- `results_summary_generator.py` - Generates summaries from full results
 
-3. **Medical Report Generation**: Structured output format for radiological findings including:
-   - Lung field analysis
-   - Cardiac assessment
-   - Bone abnormalities
-   - Soft tissue findings
-   - Medical device identification
+### Notebooks
+- `notebooks_medgemma_attention_demo.ipynb` - MedGemma attention demonstration
+- `notebooks_model_comparison.ipynb` - Model comparison analysis
+- `notebooks_qwen_attention.ipynb` - Qwen model attention analysis
 
-4. **Interactive Token Analysis**: Click on any word in the generated report to see which regions of the X-ray the model attended to when generating that specific token
+### Directory Structure
 
+#### Core Directories
+- `analysis/` - Analysis scripts for both models
+  - `llavarad_attention_analyzer.py` - LLaVA-Rad attention analysis
+  - `compare_llavarad_medgemma.py` - Direct model comparison
+  - `answer_change_analyzer.py` - Analyzes answer changes
+  - `attention_change_analyzer.py` - Attention pattern changes
+  - `batch_analysis_100samples.py` - Batch processing
+  - `faithfulness_validation.py` - Faithfulness metrics
+  - `llava/` - LLaVA-specific analysis
+  - `medgemma/` - MedGemma-specific analysis
 
-## Usage
+- `models/` - Model implementations
+  - `medgemma/` - MedGemma model files
+  - `llava/` - LLaVA-Rad model files
 
-```bash
-python medgemma_launch.py
-```
+- `results/` - All analysis outputs
+  - `medgemma_attention_analysis/` - MedGemma attention results
+  - `llava_rad_attention_analysis/` - LLaVA-Rad attention results
+  - `llava_matched_attention_analysis/` - Matched comparison results
+  - `mimic_medgemma_analysis/` - MIMIC-CXR specific results
 
-The application will:
-1. Load the MedGemma-4B model
-2. Start a Gradio interface on http://0.0.0.0:7860
-3. Provide both local and public URL access
+#### Supporting Directories
+- `data/` - MIMIC-CXR dataset files
+- `docs/` - Documentation
+- `one-pixel-attack/` - Robustness testing
+- `reports/` - Generated reports
+- `scripts/` - Utility scripts
+- `archive/` - Archived files (logs, old scripts, temporary results)
+- `archived_versions/` - Previous script versions
 
+## Documentation
+- `documentation_repository_structure.md` - Repository structure documentation
+- `report_final_comparison.md` - Final comparison report
 
-## Technical Details
+## Configuration
+- `pyproject.toml` - Project dependencies and configuration
+- `uv.lock` - Dependency lock file
+- `LICENSE` - Project license
 
-### Attention Extraction
-The tool extracts attention weights from all layers of MedGemma and provides multiple aggregation strategies:
-- Mean attention across heads
-- Weighted by head importance scores
-- Attention flow computation through layers
-- Consensus scoring combining multiple methods
-
-### Visualization Methods
-1. **Raw Attention**: Direct attention weights from the last layer
-2. **Layer-Weighted Relevancy**: Aggregates attention across all layers with learned weights
-3. **Head Importance**: Weights attention by the importance of each attention head
-4. **Attention Flow**: Traces attention propagation through the network
-5. **Consensus Map**: Combines multiple methods for robust visualization
-
-### Medical Adaptations
-- Optimized for grayscale medical images
-- High-contrast visualization for subtle findings
-- Contour detection for region-of-interest identification
-- Medical terminology in generated reports
-
-
-## Credits
-
-This implementation is an adaptation of original LVLM-Interpret work but rewired to work with SigLip vision tower:
-
-```bibtex
-@article{stan2024lvlm,
-  title={LVLM-Interpret: an interpretability tool for large vision-language models},
-  author={Stan, Gabriela Ben Melech and Aflalo, Estelle and Rohekar, Raanan Yehezkel and Bhiwandiwalla, Anahita and Tseng, Shao-Yen and Olson, Matthew Lyle and Gurwicz, Yaniv and Wu, Chenfei and Duan, Nan and Lal, Vasudev},
-  journal={arXiv preprint arXiv:2404.03118},
-  year={2024}
-}
-```
+## Archive Structure
+The `archive/` directory contains:
+- `logs/` - All log files from previous runs
+- `old_scripts/` - Deprecated or superseded scripts
+- `test_scripts/` - Test and debug scripts
+- `demo_files/` - Demo and presentation files
+- `documentation/` - Old documentation files
+- `temporary_results/` - Temporary result files
+- `legacy_analysis/` - Legacy analysis files
