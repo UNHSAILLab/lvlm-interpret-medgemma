@@ -1,83 +1,89 @@
-# LVLM Interpretation - Medical Vision-Language Models on MIMIC-CXR
+# MedGemma-4b Attention Analysis System
 
-## Overview
-This repository contains analysis and visualization tools for two medical vision-language models:
-- **MedGemma** - Google's medical vision-language model
-- **LLaVA-Rad** - Radiology-specific LLaVA model
+Unified attention extraction and analysis system for MedGemma-4b (Gemma3ForConditionalGeneration) on medical chest X-ray datasets.
 
-Both models are evaluated on the **MIMIC-CXR dataset** (chest X-rays).
+## 🚀 Quick Start
 
-## Project Structure
+```bash
+# Set GPU
+export CUDA_VISIBLE_DEVICES=5
 
-### Model-Specific Visualizers
-- `medgemma_app.py` - Main MedGemma application interface
-- `medgemma_visualizer.py` - MedGemma attention visualization
-- `medgemma_mimic_analyzer.py` - MedGemma analysis on MIMIC-CXR dataset
-- `medgemma_relevancy_analyzer.py` - MedGemma relevancy analysis
-- `llavarad_visualizer.py` - LLaVA-Rad attention visualization
+# Test single sample
+python quick_test_single_sample.py
 
-### Comparison & Analysis Tools
-- `attention_comparison_visualizer.py` - Compares attention patterns between models
-- `phrasing_results_visualizer.py` - Analyzes impact of question phrasing
-- `plot_generator_saved_data.py` - Generates plots from saved results
-- `report_generator_comprehensive.py` - Creates comprehensive comparison reports
+# Run evaluation (20 samples)
+python run_medgemma_evaluation_main.py
 
-### Data Processing
-- `results_processor.py` - Processes completed analysis results
-- `results_summary_generator.py` - Generates summaries from full results
+# Test components
+python test_system_components.py
+```
 
-### Notebooks
-- `notebooks_medgemma_attention_demo.ipynb` - MedGemma attention demonstration
-- `notebooks_model_comparison.ipynb` - Model comparison analysis
-- `notebooks_qwen_attention.ipynb` - Qwen model attention analysis
+## 📁 Project Structure
 
-### Directory Structure
+### Core System
+- `medgemma_attention_extraction.py` - Attention extraction with GQA support
+- `medgemma_dataset_evaluator.py` - Dataset processing and metrics
+- `medgemma_robustness_eval.py` - Robustness testing
+- `medgemma4b_runner.py` - MedGemma-4b specific implementation
 
-#### Core Directories
-- `analysis/` - Analysis scripts for both models
-  - `llavarad_attention_analyzer.py` - LLaVA-Rad attention analysis
-  - `compare_llavarad_medgemma.py` - Direct model comparison
-  - `answer_change_analyzer.py` - Analyzes answer changes
-  - `attention_change_analyzer.py` - Attention pattern changes
-  - `batch_analysis_100samples.py` - Batch processing
-  - `faithfulness_validation.py` - Faithfulness metrics
-  - `llava/` - LLaVA-specific analysis
-  - `medgemma/` - MedGemma-specific analysis
+### Execution Scripts
+- `run_medgemma_evaluation_main.py` - Main evaluation runner
+- `quick_test_single_sample.py` - Single sample test
+- `test_attention_extraction.py` - Attention extraction test
+- `test_system_components.py` - Component tests
 
-- `models/` - Model implementations
-  - `medgemma/` - MedGemma model files
-  - `llava/` - LLaVA-Rad model files
+### Configuration
+- `medgemma4b_config.json` - System configuration
 
-- `results/` - All analysis outputs
-  - `medgemma_attention_analysis/` - MedGemma attention results
-  - `llava_rad_attention_analysis/` - LLaVA-Rad attention results
-  - `llava_matched_attention_analysis/` - Matched comparison results
-  - `mimic_medgemma_analysis/` - MIMIC-CXR specific results
+### Documentation
+- `docs/QUICKSTART_GUIDE.md` - Detailed usage guide
+- `docs/SYSTEM_ARCHITECTURE.md` - Technical architecture
+- `docs/IMPLEMENTATION_SUMMARY.md` - Implementation details
 
-#### Supporting Directories
-- `data/` - MIMIC-CXR dataset files
-- `docs/` - Documentation
-- `one-pixel-attack/` - Robustness testing
-- `reports/` - Generated reports
-- `scripts/` - Utility scripts
-- `archive/` - Archived files (logs, old scripts, temporary results)
-- `archived_versions/` - Previous script versions
+## 🔧 Key Features
 
-## Documentation
-- `documentation_repository_structure.md` - Repository structure documentation
-- `report_final_comparison.md` - Final comparison report
+- **GQA-Aware Attention**: Handles Gemma3's grouped query attention (H=8, K=4)
+- **Medical Term Gating**: Focuses on relevant medical terms in questions
+- **Body Mask Generation**: Anatomical region detection for chest X-rays
+- **Comprehensive Metrics**: Entropy, focus, spatial distribution analysis
+- **Hard Positive Analysis**: Tracks question variant consistency
 
-## Configuration
-- `pyproject.toml` - Project dependencies and configuration
-- `uv.lock` - Dependency lock file
-- `LICENSE` - Project license
+## 📊 Output Structure
 
-## Archive Structure
-The `archive/` directory contains:
-- `logs/` - All log files from previous runs
-- `old_scripts/` - Deprecated or superseded scripts
-- `test_scripts/` - Test and debug scripts
-- `demo_files/` - Demo and presentation files
-- `documentation/` - Old documentation files
-- `temporary_results/` - Temporary result files
-- `legacy_analysis/` - Legacy analysis files
+```
+medgemma4b_results_fixed/
+├── evaluation_results.csv     # Complete metrics
+├── grids/
+│   ├── {study_id}_grid.npy   # 16×16 attention arrays
+│   └── {study_id}_meta.json  # Metrics and metadata
+├── overlays/                  # Attention overlays on X-rays
+└── visualizations/            # Multi-panel analysis figures
+```
+
+## 🎯 Dataset
+
+Configured for MIMIC-CXR with hard positive question variants:
+- Path: `/home/bsada1/mimic_cxr_hundred_vqa/`
+- CSV: `medical-cxr-vqa-questions_sample_hardpositives.csv`
+
+## 📈 Architecture Details
+
+**MedGemma-4b (Gemma3ForConditionalGeneration)**:
+- Vision: SigLIP, 27 layers, 64×64 patches
+- Projector: AvgPool(4,4) → 16×16 = 256 tokens
+- Language: 34 layers with GQA
+  - 8 attention heads (Q: 2560→2048)
+  - 4 key-value heads (KV: 2560→1024)
+
+## 📝 Citation
+
+If using this system, please cite:
+```bibtex
+@software{medgemma_attention_2024,
+  title={MedGemma-4b Attention Analysis System},
+  year={2024}
+}
+```
+
+---
+**Status**: ✅ Operational and tested on MIMIC-CXR dataset

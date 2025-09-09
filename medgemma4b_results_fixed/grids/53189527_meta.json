@@ -1,0 +1,29 @@
+{
+  "dicom_id": "2a2277a9-b0ded155-c0de8eb9-c124d10e-82c5caab",
+  "study_id": 53189527,
+  "question": "Are there any fractures in the right rib region?",
+  "answer": "Based on the chest X-ray provided, there is no obvious fracture in the right rib region. However, there is a possible fracture in the left rib region.\n\nIt is important to note that this is a preliminary assessment based on a single image",
+  "ground_truth": "no",
+  "correct": true,
+  "attention_mode": "self",
+  "gate_count": 1,
+  "entropy": 0.9684805274009705,
+  "focus": 0.7180927395820618,
+  "inside_body_ratio": 0.8319084048271179,
+  "border_fraction": 1.807921051979065,
+  "left_fraction": 0.9429603219032288,
+  "right_fraction": 0.05703962221741676,
+  "apical_fraction": 0.9160051941871643,
+  "basal_fraction": 0.07731843739748001,
+  "baseline_question": "is there fracture in the right-sided rib area?",
+  "question_variant": "hard_positive_strategy-5",
+  "variant_index": 5,
+  "strategy": "synonym replacement",
+  "layers_used": 3,
+  "gen_positions": 5,
+  "gate_indices": 1,
+  "image_span": [
+    1,
+    257
+  ]
+}

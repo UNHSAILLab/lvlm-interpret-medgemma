@@ -1,0 +1,29 @@
+{
+  "dicom_id": "02aa804e-bde0afdd-112c0b34-7bc16630-4e384014",
+  "study_id": 50414267,
+  "question": "Is the presence of pleural effusion noted?",
+  "answer": "Based on the chest X-ray provided, there is no clear evidence of a significant pleural effusion. The costophrenic angles appear sharp, and there is no blunting or meniscus sign suggestive of fluid accumulation in the pleural space.\n\nHowever,",
+  "ground_truth": "no",
+  "correct": true,
+  "attention_mode": "self",
+  "gate_count": 2,
+  "entropy": 4.4640350341796875,
+  "focus": 0.010600932873785496,
+  "inside_body_ratio": 0.14756929874420166,
+  "border_fraction": 0.0,
+  "left_fraction": 0.4281547963619232,
+  "right_fraction": 0.5718451142311096,
+  "apical_fraction": 0.5684203505516052,
+  "basal_fraction": 0.21507109701633453,
+  "baseline_question": "is there pleural effusion?",
+  "question_variant": "hard_positive_strategy-5",
+  "variant_index": 5,
+  "strategy": "Voice change",
+  "layers_used": 3,
+  "gen_positions": 5,
+  "gate_indices": 2,
+  "image_span": [
+    1,
+    257
+  ]
+}

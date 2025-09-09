@@ -1,0 +1,100 @@
+{
+  "model_id": "google/medgemma-4b-it",
+  "architecture_info": {
+    "comment": "Gemma3 architecture with GQA",
+    "text_heads": 8,
+    "kv_heads": 4,
+    "text_hidden": 2560,
+    "vision_hidden": 1152,
+    "vision_patches": 64,
+    "pooling_factor": 4,
+    "mm_tokens_per_image": 256,
+    "grid_size": 16
+  },
+  "seeds": {
+    "torch": 42,
+    "numpy": 42,
+    "python": 42
+  },
+  "decoding": {
+    "max_new_tokens": 100,
+    "temperature": 0.0,
+    "do_sample": false
+  },
+  "paths": {
+    "data_csv": "/home/bsada1/mimic_cxr_hundred_vqa/medical-cxr-vqa-questions_sample_hardpositives.csv",
+    "image_root": "/home/bsada1/mimic_cxr_hundred_vqa",
+    "output_dir": "./medgemma4b_results"
+  },
+  "eval": {
+    "target_terms": [
+      "effusion",
+      "pneumothorax",
+      "consolidation",
+      "pneumonia",
+      "edema",
+      "cardiomegaly",
+      "atelectasis",
+      "fracture",
+      "opacity",
+      "infiltrate",
+      "nodule",
+      "mass",
+      "pleural",
+      "fluid",
+      "lung",
+      "heart",
+      "rib"
+    ],
+    "hard_positive_analysis": {
+      "enabled": true,
+      "strategies_to_analyze": [
+        "baseline",
+        "Phrasing variation",
+        "Synonym replacement",
+        "Clause reordering",
+        "Register shift",
+        "Voice change"
+      ]
+    },
+    "robustness": {
+      "run_paraphrases": false,
+      "run_perturbations": true,
+      "perturbations": [
+        {
+          "type": "gaussian_noise",
+          "params": {"sigma": 1.5}
+        },
+        {
+          "type": "contrast",
+          "params": {"factor": 1.1}
+        },
+        {
+          "type": "brightness",
+          "params": {"factor": 0.95}
+        },
+        {
+          "type": "one_pixel",
+          "params": {"epsilon": 0.05, "num_pixels": 3}
+        }
+      ]
+    }
+  },
+  "batch_processing": {
+    "sample_limit": null,
+    "batch_size": 1,
+    "save_every": 10,
+    "skip_existing": true
+  },
+  "visualization": {
+    "save_overlays": true,
+    "save_grids": true,
+    "save_full_visualizations": false,
+    "colormap": "jet",
+    "overlay_alpha": 0.35
+  },
+  "logging": {
+    "level": "INFO",
+    "save_logs": true
+  }
+}

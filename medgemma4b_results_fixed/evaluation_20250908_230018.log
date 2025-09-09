@@ -1,0 +1,1 @@
+2025-09-08 23:00:18,488 - INFO - Updated Gemma3 architecture: {'H': 8, 'K': 4, 'mm_tokens': 256, 'grid_size': 16, 'vision_patches': 64, 'pooling_factor': 4, 'text_hidden': 2560, 'vision_hidden': 1152}

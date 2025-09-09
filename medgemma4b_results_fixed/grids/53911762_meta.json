@@ -1,0 +1,29 @@
+{
+  "dicom_id": "68b5c4b1-227d0485-9cc38c3f-7b84ab51-4b472714",
+  "study_id": 53911762,
+  "question": "Presence of a hernia?",
+  "answer": "Based on the provided chest X-ray image, it is difficult to definitively determine the presence of a hernia. However, there are some findings that could potentially be suggestive:\n\n*   **Possible Abdominal Shadow:** There is a slight opacity in the",
+  "ground_truth": "no",
+  "correct": false,
+  "attention_mode": "self",
+  "gate_count": 0,
+  "entropy": 4.6092071533203125,
+  "focus": 0.010044710710644722,
+  "inside_body_ratio": 0.19030477106571198,
+  "border_fraction": 0.1615985482931137,
+  "left_fraction": 0.3585141599178314,
+  "right_fraction": 0.6414856910705566,
+  "apical_fraction": 0.28107085824012756,
+  "basal_fraction": 0.4855273365974426,
+  "baseline_question": "is there hernia?",
+  "question_variant": "hard_positive_strategy-5",
+  "variant_index": 5,
+  "strategy": "phrasing variation (nominalization)",
+  "layers_used": 3,
+  "gen_positions": 5,
+  "gate_indices": 0,
+  "image_span": [
+    1,
+    257
+  ]
+}

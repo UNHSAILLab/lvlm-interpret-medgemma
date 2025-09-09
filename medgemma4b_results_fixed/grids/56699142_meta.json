@@ -1,0 +1,29 @@
+{
+  "dicom_id": "ea030e7a-2e3b1346-bc518786-7a8fd698-f673b44c",
+  "study_id": 56699142,
+  "question": "Is a fracture present in the right rib region?",
+  "answer": "Based on the provided chest X-ray image, there is a fracture present in the right rib region. Specifically, there appears to be a fracture of the right 6th rib.\n",
+  "ground_truth": "no",
+  "correct": false,
+  "attention_mode": "self",
+  "gate_count": 1,
+  "entropy": 4.49205207824707,
+  "focus": 0.008729629218578339,
+  "inside_body_ratio": 0.1282849758863449,
+  "border_fraction": 0.13225632905960083,
+  "left_fraction": 0.459684282541275,
+  "right_fraction": 0.5403158068656921,
+  "apical_fraction": 0.45954200625419617,
+  "basal_fraction": 0.3290117681026459,
+  "baseline_question": "is there fracture in the right rib area?",
+  "question_variant": "hard_positive_strategy-1",
+  "variant_index": 1,
+  "strategy": "Synonym replacement + phrasing variation",
+  "layers_used": 3,
+  "gen_positions": 5,
+  "gate_indices": 1,
+  "image_span": [
+    1,
+    257
+  ]
+}
