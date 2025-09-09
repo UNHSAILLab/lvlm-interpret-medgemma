@@ -1,0 +1,19 @@
+{
+  "index": 19,
+  "study_id": "8e3f2822-0c1d4b71-2a265bbf-5b96e531-ccf5fa30",
+  "question": "is there evidence of metastasis in this image?",
+  "ground_truth": "yes",
+  "full_generated_text": "no",
+  "extracted_answer": "no",
+  "generated_text_truncated": "no\n",
+  "is_correct": false,
+  "answer_in_text": false,
+  "attention_entropy": 4.974848747253418,
+  "regional_focus": "lower_left",
+  "inside_body_ratio": 0.9999999506842523,
+  "border_fraction": 0.0,
+  "left_fraction": 0.5218518341779971,
+  "right_fraction": 0.4781481165062552,
+  "apical_fraction": 0.30572972253148273,
+  "basal_fraction": 0.6380341303629489
+}

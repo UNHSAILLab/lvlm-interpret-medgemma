@@ -1,0 +1,333 @@
+============================================================
+MedGemma 4B Multimodal VLM - MIMIC-CXR Analysis Platform
+Developed by SAIL Lab - University of New Haven
+Enhanced with Robust Token-Conditioned Attention
+============================================================
+PyTorch version: 2.7.1+cu126
+CUDA available: True
+
+=== GPU Status ===
+GPU 0: 1.0GB free / 80.0GB total (97.8% used)
+GPU 1: 78.3GB free / 80.0GB total (1.2% used)
+GPU 2: 70.3GB free / 80.0GB total (11.2% used)
+GPU 3: 69.4GB free / 80.0GB total (12.4% used)
+GPU 4: 75.3GB free / 80.0GB total (5.0% used)
+GPU 5: 78.8GB free / 80.0GB total (0.5% used)
+GPU 6: 78.8GB free / 80.0GB total (0.5% used)
+GPU 7: 78.8GB free / 80.0GB total (0.5% used)
+
+✓ Selected GPU 5 with 78.8GB free
+=== GPU Setup Complete ===
+GPU: NVIDIA A100 80GB PCIe
+Memory: 79.3 GB
+Current usage: 0.0GB allocated, 0.0GB reserved
+
+=== Loading MedGemma 4B Multimodal VLM ===
+Model ID: google/medgemma-4b-it
+✓ Processor loaded
+✓ MedGemma 4B model loaded successfully with attention enabled
+Model device: cuda:5
+Model dtype: torch.bfloat16
+GPU Memory: 8.0GB allocated, 8.0GB reserved
+================================================================================
+QUESTION PHRASING SENSITIVITY ANALYSIS - MEDGEMMA
+================================================================================
+Generated: 2025-08-25 21:33:51
+Total question groups analyzed: 63
+Total variants tested: 600
+
+CONSISTENCY ANALYSIS
+----------------------------------------
+Mean consistency rate: 90.3%
+Std deviation: 16.1%
+Fully consistent groups: 43/63
+Groups with changed answers: 20
+
+ACCURACY BY PHRASING STRATEGY
+----------------------------------------
+baseline: 71.0%
+synonym replacement: 63.6%
+phrasing variation + synonym replacement: 50.0%
+register shift (more technical) + synonym replacement: 0.0%
+phrasing variation: 65.4%
+voice change: 70.0%
+Synonym replacement and phrasing variation: 50.0%
+Synonym replacement: 50.0%
+Register shift and phrasing variation: 100.0%
+Phrasing variation using existential construction: 100.0%
+Synonym replacement + phrasing variation: 40.0%
+Synonym replacement + register shift (more clinical): 0.0%
+Phrasing variation: 66.7%
+Voice change (passive) + synonym replacement: 100.0%
+Question construction variation + register shift: 100.0%
+Phrasing variation (existential recast): 0.0%
+Phrasing variation (quantifier): 50.0%
+Clause reordering (noun phrase restructuring): 0.0%
+Register shift (more formal framing): 0.0%
+Synonym replacement (bibasilar→bilateral lung bases): 100.0%
+Clause reordering: 65.9%
+Synonym replacement (atelectasis→atelectatic changes): 100.0%
+Voice change and phrasing variation: 100.0%
+Phrasing variations: 78.6%
+Voice changes: 100.0%
+Register shifts: 87.5%
+Phrasing variation; register shift to concise form: 100.0%
+Synonym replacement ('show' for 'is there'); phrasing variation: 100.0%
+Synonym replacement ('both lung bases' for 'bibasilar area'): 100.0%
+Clause reordering; synonym replacement ('bilateral lung bases' for 'bibasilar area'): 100.0%
+Synonym replacement ('bases of both lungs' for 'bibasilar area'); phrasing variation: 100.0%
+Voice change (active) and phrasing variation: 100.0%
+Voice change (passive/causative phrasing): 100.0%
+Clause reordering + synonym replacement: 40.0%
+Voice change (active) + phrasing variation: 0.0%
+Register shift + phrasing variation + synonym replacement: 0.0%
+Lexical variation (adjectival form) + register shift: 0.0%
+Voice changes (active↔passive): 0.0%
+Register shifts (conversational): 0.0%
+Voice changes; Register shifts: 100.0%
+Register shift: 62.5%
+Phrasing variation; voice change: 100.0%
+Synonym replacement; phrasing variation: 100.0%
+Register shift; phrasing variation: 100.0%
+Synonym replacement (there -> present): 0.0%
+Register shift (conversational ellipsis): 0.0%
+Register shift (noun-phrase query): 0.0%
+Phrasing variation (redundant but equivalent wording): 0.0%
+Phrasing variation (explicit binary): 0.0%
+Phrasing variation; synonym replacement: 100.0%
+Voice change (passive): 55.6%
+Register shift (conversational shorthand): 100.0%
+Voice change: 71.4%
+clause reordering: 56.2%
+synonym replacement + phrasing variation: 0.0%
+register shift (conversational): 50.0%
+nominalization/phrasing variation: 100.0%
+synonym replacement; phrasing variation: 100.0%
+register shift (conversational); phrasing variation: 100.0%
+phrasing variation (quantifier): 100.0%
+voice change (passive phrasing): 100.0%
+register shift (elliptical question): 100.0%
+phrasing variation (elliptical nominalization): 100.0%
+Phrasing variation (existential form): 100.0%
+Phrasing variation (determiner addition): 100.0%
+Phrasing variation (noun-phrase question): 100.0%
+Register shift (conversational fragment): 100.0%
+Register shift (elliptical): 0.0%
+Synonym replacement (US↔UK spelling): 0.0%
+Phrasing variation (existential construction): 0.0%
+synonym replacement (regional spelling): 100.0%
+register shift (telegraphic): 100.0%
+phrasing variation (article insertion): 100.0%
+register shift (telegraphic noun-phrase): 100.0%
+Voice/syntactic change: 0.0%
+Synonym replacement (evidence→signs): 0.0%
+Synonym replacement (evidence→indications) + phrasing variation: 0.0%
+voice change (active→passive) and phrasing variation: 100.0%
+voice change with modal: 100.0%
+register shift: 83.3%
+Phrasing variation + synonym replacement: 100.0%
+Voice change + phrasing variation: 100.0%
+Register shift (conversational) + phrasing variation: 50.0%
+Synonym replacement; Phrasing variation: 100.0%
+Voice change (active→passive); Phrasing variation: 100.0%
+Register shift (conversational); Phrasing variation: 100.0%
+Voice change (passive construction): 50.0%
+Register shift (conversational): 50.0%
+Synonym replacement (evidence→sign): 0.0%
+Synonym replacement (evidence -> present): 100.0%
+Synonym replacement (evidence -> signs): 100.0%
+Clause reordering (fronted prepositional phrase): 100.0%
+Voice change with synonym replacement: 100.0%
+Synonym replacement (evidence → evident) + phrasing variation: 100.0%
+Clause reordering + synonym replacement (evidence → sign): 100.0%
+Voice change (passive construction) + phrasing variation: 100.0%
+Synonym replacement (show evidence → demonstrate) + phrasing variation: 100.0%
+voice change (active→passive): 100.0%
+voice change (existential phrasing): 0.0%
+clause reordering + synonym replacement: 0.0%
+synonym replacement (evidence→indications; fluid overload→volume overload): 0.0%
+register shift + synonym replacement (fluid overload→hypervolemia): 100.0%
+Synonym replacement + register shift (more formal): 0.0%
+Voice change/nominalization: 0.0%
+Register shift to direct presence question: 100.0%
+Voice change; phrasing variation: 100.0%
+Voice change (passive) + phrasing variation: 100.0%
+Synonym replacement + register shift: 100.0%
+Voice change (active→passive) + phrasing variation: 0.0%
+Register shift (conversational) + synonym replacement: 0.0%
+Synonym replacement + voice change: 0.0%
+Voice change (active→passive): 50.0%
+Clause reordering + Synonym replacement: 0.0%
+Voice change + Phrasing variation: 100.0%
+Register shift + Phrasing variation: 0.0%
+Voice change + synonym replacement: 0.0%
+Register shift + synonym replacement: 0.0%
+Phrasing variation; clause reordering: 100.0%
+Synonym replacement (evidence of -> present); register shift (more direct): 100.0%
+Clause reordering; synonym replacement (evident): 100.0%
+Voice change (passive); phrasing variation: 100.0%
+Phrasing variation (question construction change): 100.0%
+Synonym replacement (evidence → signs): 100.0%
+Synonym replacement (present) + phrasing variation: 100.0%
+Voice change (passive with modal) + synonym replacement (identified): 100.0%
+Clause reordering + synonym replacement (indication): 100.0%
+Clause reordering; synonym replacement: 100.0%
+Synonym replacement; register shift: 100.0%
+Voice change (active→passive); phrasing variation: 100.0%
+phrasing variation + voice change: 100.0%
+synonym replacement (evidence→signs): 100.0%
+Voice change (active→passive phrasing): 0.0%
+Register shift (formal verb) + UK spelling variant: 0.0%
+Phrasing variation (nominalization): 0.0%
+Phrasing variation and clause reordering: 0.0%
+register shift + voice change: 0.0%
+voice change + synonym replacement: 100.0%
+phrasing variation (grammatical normalization): 100.0%
+voice change (predicate structure): 100.0%
+synonym replacement (be there→exist): 100.0%
+phrasing variation (quantifier insertion): 100.0%
+phrasing variation (nominalization): 100.0%
+Phrasing variation (article insertion): 100.0%
+Register shift (conversational phrasing): 100.0%
+Synonym replacement (hyperexpanded→hyperinflated): 100.0%
+Register shift (telegraphic phrasing): 100.0%
+Voice change (observational phrasing): 100.0%
+Phrasing variation (reporting verb): 100.0%
+Synonym replacement + presence phrasing: 0.0%
+Voice change (passive observation) + phrasing variation: 100.0%
+Phrasing variation with modal: 0.0%
+Register shift (telegraphic): 100.0%
+Phrasing variation (imperative form): 0.0%
+Register shift (formal): 100.0%
+voice change to passive phrasing: 100.0%
+phrasing variation with quantifier: 100.0%
+register shift to concise/elliptical question: 100.0%
+clause reordering and inversion: 100.0%
+synonym replacement for 'pleural effusion': 100.0%
+Synonym replacement; clause reordering: 100.0%
+elliptical phrasing and clause reordering: 100.0%
+elliptical phrasing (concise): 100.0%
+phrasing variation; register shift: 100.0%
+register shift (formal): 0.0%
+voice change / syntactic transformation: 100.0%
+phrasing variation (subject shift to active): 0.0%
+clause reordering (fronting the location): 100.0%
+voice change (passive): 0.0%
+Synonym replacement (present/region) + slight phrasing change: 0.0%
+Phrasing variation with synonym (contain): 100.0%
+Compression into compound adjective + phrasing variation: 100.0%
+Clause reordering + synonym (apex of the left lung): 100.0%
+Voice/structure change (located) + synonym (apex): 0.0%
+Synonym replacement (technical term): 100.0%
+register shift (more formal): 100.0%
+register shift (telegraphic/elliptical): 100.0%
+synonym replacement (there is → exist): 100.0%
+phrasing variation (use of 'present'): 100.0%
+synonym replacement (is→exist): 100.0%
+voice change (observational/passive phrasing): 100.0%
+register shift and ellipsis: 100.0%
+Register shift (elliptical/concise): 100.0%
+Synonym replacement (abbreviation): 100.0%
+Synonym/abbreviation replacement: 0.0%
+Synonym/abbreviation replacement + phrasing variation: 0.0%
+Register shift (elliptical question): 0.0%
+spelling variant (American→British): 100.0%
+synonym replacement (pulmonary→lung): 100.0%
+clause reordering / punctuation variation: 100.0%
+register shift (conversational/elliptical): 100.0%
+Clause reordering; phrasing variation: 100.0%
+Register shift (conversational); phrasing variation: 100.0%
+Register shift + phrasing variation: 100.0%
+Voice change (existential to active): 0.0%
+Phrasing variation with modal passive: 0.0%
+
+BASELINE ACCURACY
+----------------------------------------
+Baseline questions accuracy: 65.1%
+
+EXAMPLES OF INCONSISTENT RESPONSES
+----------------------------------------
+
+Example 1:
+Question: is the pleural effusion bilateral?
+Ground truth: yes
+Consistency: 61.1%
+Answers by strategy:
+  - baseline: yes
+  - synonym replacement: no
+  - phrasing variation + synonym replacement: no
+  - register shift (more technical) + synonym replacement: no
+  - phrasing variation: yes
+  - voice change: no
+  - Synonym replacement and phrasing variation: yes
+  - Synonym replacement: no
+  - Register shift and phrasing variation: yes
+  - Phrasing variation using existential construction: yes
+  - Synonym replacement + phrasing variation: no
+  - Synonym replacement + register shift (more clinical): no
+  - Phrasing variation: yes
+  - Voice change (passive) + synonym replacement: yes
+  - Question construction variation + register shift: yes
+
+Example 2:
+Question: is there cardiomegaly in the mediastinal area?
+Ground truth: yes
+Consistency: 83.3%
+Answers by strategy:
+  - baseline: no
+  - phrasing variation: no
+  - synonym replacement: no
+  - clause reordering: no
+  - voice change: yes
+
+Example 3:
+Question: is there cardiomegaly?
+Ground truth: yes
+Consistency: 66.7%
+Answers by strategy:
+  - baseline: yes
+  - phrasing variation: no
+  - synonym replacement: no
+  - synonym replacement + phrasing variation: no
+  - register shift (conversational): no
+  - nominalization/phrasing variation: yes
+
+Example 4:
+Question: is there evidence of atelectasis in this image?
+Ground truth: no
+Consistency: 96.7%
+Answers by strategy:
+  - baseline: yes
+  - Phrasing variation: yes
+  - Clause reordering: yes
+  - Voice/syntactic change: yes
+  - Synonym replacement (evidence→signs): yes
+  - Synonym replacement (evidence→indications) + phrasing variation: yes
+  - phrasing variation: yes
+  - voice change (active→passive) and phrasing variation: yes
+  - clause reordering: yes
+  - synonym replacement: yes
+  - voice change with modal: yes
+  - voice change: yes
+  - register shift: yes
+  - Phrasing variation + synonym replacement: yes
+  - Voice change + phrasing variation: yes
+  - Register shift (conversational) + phrasing variation: yes
+  - Synonym replacement; Phrasing variation: yes
+  - Voice change (active→passive); Phrasing variation: yes
+  - Register shift (conversational); Phrasing variation: yes
+
+Example 5:
+Question: is there evidence of demineralization in this image?
+Ground truth: yes
+Consistency: 83.3%
+Answers by strategy:
+  - baseline: no
+  - phrasing variation: no
+  - voice change: yes
+  - synonym replacement: no
+  - clause reordering: no
+
+================================================================================
+END OF REPORT
+================================================================================

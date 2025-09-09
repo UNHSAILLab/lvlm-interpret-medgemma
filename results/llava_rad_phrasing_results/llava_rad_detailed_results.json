@@ -1,0 +1,4916 @@
+[
+  {
+    "baseline_question": "is the pleural effusion bilateral?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/925b9496-a956d7b2-05185e52-bb33313b-c06ee522.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is the pleural effusion bilateral?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is the pleural effusion present on both sides?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the pleural effusion involve both pleural spaces?",
+        "strategy": "phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is the pleural effusion affecting both hemithoraces?",
+        "strategy": "register shift (more technical) + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is the pleural effusion present bilaterally?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is bilateral involvement present for the pleural effusion?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is the pleural effusion bilateral?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is the pleural effusion present bilaterally?",
+        "strategy": "Synonym replacement and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the pleural effusion involve both hemithoraces?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is the pleural effusion present in both pleural spaces?",
+        "strategy": "Synonym replacement and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can the pleural effusion be considered bilateral?",
+        "strategy": "Register shift and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there a bilateral pleural effusion?",
+        "strategy": "Phrasing variation using existential construction",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is the pleural effusion bilateral?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is the pleural effusion present on both sides?",
+        "strategy": "Synonym replacement + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the pleural effusion involve both hemithoraces?",
+        "strategy": "Synonym replacement + register shift (more clinical)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is the pleural effusion bilateral in distribution?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is the pleural effusion observed bilaterally?",
+        "strategy": "Voice change (passive) + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Would you describe the pleural effusion as bilateral?",
+        "strategy": "Question construction variation + register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.9444444444444444,
+    "answer_distribution": {
+      "yes": 17,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there air collection?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/096052b7-d256dc40-453a102b-fa7d01c6-1b22c6b4.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there air collection?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does air collection exist?",
+        "strategy": "Phrasing variation (existential recast)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is air collection present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any air collection?",
+        "strategy": "Phrasing variation (quantifier)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there collection of air?",
+        "strategy": "Clause reordering (noun phrase restructuring)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is it the case that there is air collection?",
+        "strategy": "Register shift (more formal framing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there atelectasis in the bibasilar area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/3fc658da-23a5d1b2-68e913fd-bf919f75-b7113290.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the bibasilar area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does the bibasilar region show atelectasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is atelectasis present in the bilateral lung bases?",
+        "strategy": "Synonym replacement (bibasilar\u2192bilateral lung bases)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "At the lung bases bilaterally, is there atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are there bibasilar atelectatic changes?",
+        "strategy": "Synonym replacement (atelectasis\u2192atelectatic changes)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is the bibasilar region affected by atelectasis?",
+        "strategy": "Voice change and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the bibasilar area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present in the bibasilar region?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In the bibasilar area, is atelectasis present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does the bibasilar region show atelectasis?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there atelectasis at both lung bases?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do the lung bases bilaterally demonstrate atelectasis?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the bibasilar area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is bibasilar atelectasis present?",
+        "strategy": "Phrasing variation; register shift to concise form",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the bibasilar region show atelectasis?",
+        "strategy": "Synonym replacement ('show' for 'is there'); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there atelectasis at both lung bases?",
+        "strategy": "Synonym replacement ('both lung bases' for 'bibasilar area')",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there atelectasis involving the bilateral lung bases?",
+        "strategy": "Clause reordering; synonym replacement ('bilateral lung bases' for 'bibasilar area')",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is atelectasis present in the bases of both lungs?",
+        "strategy": "Synonym replacement ('bases of both lungs' for 'bibasilar area'); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 18
+    }
+  },
+  {
+    "baseline_question": "is there atelectasis in the left base area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/a917c883-720a5bbf-02c84fc6-98ad00ac-c562ff80.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the left base area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there atelectasis at the left basal area?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the left base area show atelectasis?",
+        "strategy": "Voice change (active) and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is atelectasis present in the left base area?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In the left base area, is there atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is the left base area affected by atelectasis?",
+        "strategy": "Voice change (passive/causative phrasing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there atelectasis in the right base area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/48edbd44-ca2376ca-059a9f55-3fc8abd1-e13e4b76.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the right base area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present in the right lung base?",
+        "strategy": "Synonym replacement + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In the right basilar region, is there atelectasis?",
+        "strategy": "Clause reordering + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does the right lung base show atelectasis?",
+        "strategy": "Voice change (active) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there any evidence of atelectasis at the right basal area?",
+        "strategy": "Register shift + phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is the right lung base atelectatic?",
+        "strategy": "Lexical variation (adjectival form) + register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there atelectasis in the right lower lobe area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/4e39ddbc-47422ff9-3de977e6-924e3c52-4cac3943.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis in the right lower lobe area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does the right lower lobe area show atelectasis?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is the right lower lobe area involved by atelectasis?",
+        "strategy": "Voice changes (active\u2194passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the right lower lobe area, is there atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any atelectasis in the right lower lobe area?",
+        "strategy": "Register shifts (conversational)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there atelectasis in the right lower lobe region?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there atelectasis?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/8061113f-c019f3ae-fd1b7c54-33e8690d-be838099.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there evidence of atelectasis?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can atelectasis be identified?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Do we see atelectasis?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is the presence of atelectasis noted?",
+        "strategy": "Voice changes; Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any evidence of atelectasis?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Has atelectasis been identified?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Atelectasis: is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does the patient have atelectasis?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any atelectasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any atelectasis present?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Presence of atelectasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Atelectasis\u2014is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there atelectasis?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is atelectasis present?",
+        "strategy": "Phrasing variation; voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any atelectasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Atelectasis: is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is atelectasis seen?",
+        "strategy": "Synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any atelectasis present?",
+        "strategy": "Register shift; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 24
+    }
+  },
+  {
+    "baseline_question": "is there bronchiectasis?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/ebf48d65-7e780cd5-59118fba-50977097-3720cc7e.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there bronchiectasis?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is bronchiectasis present?",
+        "strategy": "Synonym replacement (there -> present)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Any bronchiectasis?",
+        "strategy": "Register shift (conversational ellipsis)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Presence of bronchiectasis?",
+        "strategy": "Register shift (noun-phrase query)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there bronchiectasis present?",
+        "strategy": "Phrasing variation (redundant but equivalent wording)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is bronchiectasis present or absent?",
+        "strategy": "Phrasing variation (explicit binary)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there calcification?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/a75a1fbe-802065ad-717eb7c1-e2ce3552-646276a6.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there calcification?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is calcification present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does calcification exist?",
+        "strategy": "Phrasing variation; synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is any calcification noted?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any calcification present?",
+        "strategy": "Register shift (conversational shorthand)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is calcification evident?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there cardiomegaly in the lungs area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/88498b37-c21dc7ba-bc202800-b517a62d-f7ac5bcf.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there cardiomegaly in the lungs area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is cardiomegaly present in the lungs area?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is an enlarged heart present in the lungs area?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the lungs area, is cardiomegaly present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is cardiomegaly observed in the lungs area?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there cardiomegaly in the pulmonary region?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there cardiomegaly in the mediastinal area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/c1ad3e27-62d05ef8-95018fe3-b8bcfe4b-bbba0e1f.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there cardiomegaly in the mediastinal area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is cardiomegaly present in the mediastinal area?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the mediastinal area demonstrate cardiomegaly?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there cardiac enlargement in the mediastinal region?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In the mediastinum, is there cardiomegaly?",
+        "strategy": "clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can an enlarged heart be seen in the mediastinal area?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there cardiomegaly?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/7b25b3ed-e780a527-319cb7b3-02d5d071-f1cddee9.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there cardiomegaly?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is cardiomegaly present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is the heart enlarged?",
+        "strategy": "synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there an enlarged heart?",
+        "strategy": "synonym replacement + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any cardiomegaly?",
+        "strategy": "register shift (conversational)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Presence of cardiomegaly?",
+        "strategy": "nominalization/phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.5,
+    "answer_distribution": {
+      "yes": 3,
+      "no": 3
+    }
+  },
+  {
+    "baseline_question": "is there consolidation?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/8d4eb7a8-0d3c4f7e-fed33834-ef1c6ffd-e01d0967.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there consolidation?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is consolidation present?",
+        "strategy": "synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does consolidation exist?",
+        "strategy": "synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any consolidation?",
+        "strategy": "register shift (conversational); phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Do we have consolidation?",
+        "strategy": "register shift (conversational)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there any consolidation?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there consolidation?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is consolidation present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any consolidation?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does consolidation exist?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Presence of consolidation?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Consolidation: is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there consolidation?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is consolidation present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any consolidation?",
+        "strategy": "phrasing variation (quantifier)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is consolidation seen?",
+        "strategy": "voice change (passive phrasing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any consolidation present?",
+        "strategy": "register shift (elliptical question)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Presence of consolidation?",
+        "strategy": "phrasing variation (elliptical nominalization)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there consolidation?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is consolidation present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does consolidation exist?",
+        "strategy": "Phrasing variation (existential form)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any consolidation?",
+        "strategy": "Phrasing variation (determiner addition)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Presence of consolidation?",
+        "strategy": "Phrasing variation (noun-phrase question)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any consolidation?",
+        "strategy": "Register shift (conversational fragment)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.9166666666666666,
+    "answer_distribution": {
+      "yes": 22,
+      "no": 2
+    }
+  },
+  {
+    "baseline_question": "is there edema?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/3b8b1b7d-054490d5-385641e7-ff43d2c8-9505f058.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there edema?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is edema present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any edema?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Edema present?",
+        "strategy": "Register shift (elliptical)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there oedema?",
+        "strategy": "Synonym replacement (US\u2194UK spelling)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does edema exist?",
+        "strategy": "Phrasing variation (existential construction)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there edema?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is edema present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any edema?",
+        "strategy": "phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is oedema present?",
+        "strategy": "synonym replacement (regional spelling)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does edema exist?",
+        "strategy": "phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Edema present?",
+        "strategy": "register shift (telegraphic)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "no": 12
+    }
+  },
+  {
+    "baseline_question": "is there effusion?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/f8d7008c-ed9b419b-7f0c85b0-acf404a4-5afe3f3d.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is an effusion present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there an effusion?",
+        "strategy": "phrasing variation (article insertion)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does an effusion exist?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is effusion present?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Presence of effusion?",
+        "strategy": "register shift (telegraphic noun-phrase)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there elongation of the descending aorta?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/c7526473-7b7214ee-a5d58d12-29d1f67f-9f4edf00.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there elongation of the descending aorta?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is the descending aorta elongated?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In the descending aorta, is there elongation?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is elongation of the descending aorta observed?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there lengthening of the descending aorta?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any elongation of the descending aorta?",
+        "strategy": "Register shift",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there evidence of atelectasis in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/5e54fc9c-37c49834-9ac3b915-55811712-9d959d26.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of atelectasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of atelectasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In this image, is there evidence of atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is evidence of atelectasis present in this image?",
+        "strategy": "Voice/syntactic change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are there signs of atelectasis in this image?",
+        "strategy": "Synonym replacement (evidence\u2192signs)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does this image contain indications of atelectasis?",
+        "strategy": "Synonym replacement (evidence\u2192indications) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of atelectasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of atelectasis?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is atelectasis present in this image?",
+        "strategy": "voice change (active\u2192passive) and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of atelectasis?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are there signs of atelectasis in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can atelectasis be seen in this image?",
+        "strategy": "voice change with modal",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of atelectasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of atelectasis?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is atelectasis evident in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of atelectasis?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is evidence of atelectasis shown by this image?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see any evidence of atelectasis in this image?",
+        "strategy": "register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of atelectasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of atelectasis?",
+        "strategy": "Phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is atelectasis evident in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there any evidence of atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can atelectasis be seen in this image?",
+        "strategy": "Voice change + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see evidence of atelectasis in this image?",
+        "strategy": "Register shift (conversational) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of atelectasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show signs of atelectasis?",
+        "strategy": "Synonym replacement; Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is any evidence of atelectasis present in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can evidence of atelectasis be seen in this image?",
+        "strategy": "Voice change (active\u2192passive); Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of atelectasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Would you say there is evidence of atelectasis in this image?",
+        "strategy": "Register shift (conversational); Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 30
+    }
+  },
+  {
+    "baseline_question": "is there evidence of cardiomegaly in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/79863f89-595bf19b-3c7b514a-42969d9b-eff42368.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of cardiomegaly in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show cardiomegaly?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is cardiomegaly present in this image?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can cardiomegaly be seen in this image?",
+        "strategy": "Voice change (passive construction)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are we seeing cardiomegaly in this image?",
+        "strategy": "Register shift (conversational)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there any sign of cardiomegaly in this image?",
+        "strategy": "Synonym replacement (evidence\u2192sign)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of consolidation in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/28fad2ac-d6001216-b4f72c5b-2d4d452e-17b6c9a5.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of consolidation in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show any consolidation?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is consolidation present in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can consolidation be seen in this image?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does the image demonstrate consolidation?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "In this image, is there evidence of consolidation?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of consolidation in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show consolidation?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is consolidation present in this image?",
+        "strategy": "Synonym replacement (evidence -> present)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Are there any signs of consolidation in this image?",
+        "strategy": "Synonym replacement (evidence -> signs)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of consolidation?",
+        "strategy": "Clause reordering (fronted prepositional phrase)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can consolidation be seen in this image?",
+        "strategy": "Voice change (passive construction)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of consolidation in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of consolidation?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is consolidation present in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can consolidation be seen in this image?",
+        "strategy": "Register shift and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of consolidation?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is evidence of consolidation demonstrated in this image?",
+        "strategy": "Voice change with synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 18
+    }
+  },
+  {
+    "baseline_question": "is there evidence of demineralization in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/07b9ddda-9a4a1e1a-4495463d-4c77d947-ed368713.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of demineralization in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of demineralization?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is demineralization present in this image?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Are there signs of demineralization in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is any demineralization evident?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does this image demonstrate mineral loss?",
+        "strategy": "synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there evidence of edema in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/a6617202-f5a8661d-78eb1442-037bf3e4-3dd8967f.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of edema in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of edema?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is edema evident in this image?",
+        "strategy": "Synonym replacement (evidence \u2192 evident) + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there any sign of edema?",
+        "strategy": "Clause reordering + synonym replacement (evidence \u2192 sign)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can edema be seen in this image?",
+        "strategy": "Voice change (passive construction) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does this image demonstrate edema?",
+        "strategy": "Synonym replacement (show evidence \u2192 demonstrate) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "yes": 4,
+      "no": 2
+    }
+  },
+  {
+    "baseline_question": "is there evidence of effusion in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/2a280266-c8bae121-54d75383-cac046f4-ca37aa16.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of an effusion?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is an effusion present in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of an effusion?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can an effusion be seen in this image?",
+        "strategy": "voice change (active\u2192passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there any indication of an effusion in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of fluid overload in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/cc0b5db2-cc391879-a10b0ccf-5e554f89-37f1cf99.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of fluid overload in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of fluid overload?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is any evidence of fluid overload present in this image?",
+        "strategy": "voice change (existential phrasing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, are there signs of fluid overload?",
+        "strategy": "clause reordering + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are there indications of volume overload on this image?",
+        "strategy": "synonym replacement (evidence\u2192indications; fluid overload\u2192volume overload)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is hypervolemia evident in this image?",
+        "strategy": "register shift + synonym replacement (fluid overload\u2192hypervolemia)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of fracture in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/c50494f1-90e2bff5-e9189550-1a4562fd-6ab5204c.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of fracture in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show a fracture?",
+        "strategy": "phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a fracture evident in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of a fracture?",
+        "strategy": "clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is a fracture demonstrated by this image?",
+        "strategy": "voice change",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see any evidence of a fracture in this image?",
+        "strategy": "register shift",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "no": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of hyperinflation in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/3892f17f-8fa034e8-e9b81865-01c48bbb-b9452626.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of hyperinflation in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "In this image, is there evidence of hyperinflation?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does this image show evidence of hyperinflation?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Are there signs of hyperinflation on this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is hyperinflation evident in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can hyperinflation be seen in this image?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there evidence of metastasis in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/8e3f2822-0c1d4b71-2a265bbf-5b96e531-ccf5fa30.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of metastasis in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of metastasis?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is metastasis evident in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does the image provide evidence of metastatic disease?",
+        "strategy": "Synonym replacement + register shift (more formal)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of metastasis?",
+        "strategy": "Clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is evidence of metastasis present in this image?",
+        "strategy": "Voice change/nominalization",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "no": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of opacity in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/85b903ac-bfc4d6cd-491d2a72-18e7c16e-23d2cafa.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of opacity in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show any opacity?",
+        "strategy": "Phrasing variation; synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is opacity present in this image?",
+        "strategy": "Register shift to direct presence question",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of opacity?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can opacity be seen in this image?",
+        "strategy": "Voice change; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is opacity evident in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of opacity in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show any opacity?",
+        "strategy": "Phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is opacity present in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can any opacity be seen in this image?",
+        "strategy": "Voice change (passive) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of opacity?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does the image exhibit signs of opacity?",
+        "strategy": "Synonym replacement + register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 12
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pleural effusion in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/0009a9fb-eb905e90-824cad7c-16d40468-007f0038.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show any signs of pleural effusion?",
+        "strategy": "Synonym replacement + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Can pleural effusion be seen in this image?",
+        "strategy": "Voice change (active\u2192passive) + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is pleural effusion present in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "From this image, is there any indication of pleural effusion?",
+        "strategy": "Clause reordering + synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Would you say this image demonstrates pleural effusion?",
+        "strategy": "Register shift (conversational) + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pleural effusion?",
+        "strategy": "Phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pleural effusion evident in this image?",
+        "strategy": "Synonym replacement + voice change",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there any sign of pleural effusion?",
+        "strategy": "Clause reordering + synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can pleural effusion be identified in the provided image?",
+        "strategy": "Voice change (passive) + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see pleural effusion on this image?",
+        "strategy": "Register shift (conversational) + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of a pleural effusion?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any indication of pleural effusion in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is evidence of pleural effusion present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is evidence of a pleural effusion demonstrated in this image?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Are we seeing evidence of pleural effusion in this image?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show a pleural effusion?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a pleural effusion demonstrated in this image?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of a pleural effusion?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there evidence of fluid in the pleural space in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do we see any pleural effusion in this image?",
+        "strategy": "Register shift (conversational)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pleural effusion?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any sign of pleural effusion in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of pleural effusion?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can pleural effusion be seen in this image?",
+        "strategy": "Voice change (active\u2192passive)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does the image provide evidence of pleural effusion?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show a pleural effusion?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pleural effusion present in this image?",
+        "strategy": "Voice change",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there any sign of pleural effusion?",
+        "strategy": "Clause reordering + Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can pleural effusion be identified in this image?",
+        "strategy": "Voice change + Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see evidence of pleural effusion in this image?",
+        "strategy": "Register shift + Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural effusion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pleural effusion?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In this image, is there evidence of pleural effusion?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is pleural effusion demonstrated in this image?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are there signs of pleural effusion in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do we see pleural effusion in this image?",
+        "strategy": "register shift",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.6190476190476191,
+    "answer_distribution": {
+      "no": 26,
+      "yes": 16
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pleural thickening in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/ee31086f-cbf22f9d-9553d506-2bcd4167-0e1e17bf.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural thickening in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Are there signs of pleural thickening in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pleural thickening present in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can pleural thickening be seen in this image?",
+        "strategy": "Voice change (active\u2192passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there evidence of pleural thickening?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see pleural thickening in this image?",
+        "strategy": "Register shift (conversational)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pleural thickening in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show pleural thickening?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Can pleural thickening be identified in this image?",
+        "strategy": "Voice change + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is pleural thickening present in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is there any sign of pleural thickening?",
+        "strategy": "Clause reordering + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Would you say this image demonstrates pleural thickening?",
+        "strategy": "Register shift + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 12
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pneumonia in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/9f5446a9-46ea84a3-6806d8b7-2c0f6d4d-38799159.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pneumonia in this image?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pneumonia?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Are there signs of pneumonia in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of pneumonia?",
+        "strategy": "clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is pneumonia demonstrated in this image?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see any evidence of pneumonia in this image?",
+        "strategy": "register shift",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "no": 4,
+      "yes": 2
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pneumothorax in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/1fe73f8e-036bd24e-4578c891-33c1746e-864884a7.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pneumothorax in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of a pneumothorax?",
+        "strategy": "Phrasing variation; clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Are there any signs of pneumothorax in this image?",
+        "strategy": "Synonym replacement (evidence -> signs)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is a pneumothorax present in this image?",
+        "strategy": "Synonym replacement (evidence of -> present); register shift (more direct)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In this image, is pneumothorax evident?",
+        "strategy": "Clause reordering; synonym replacement (evident)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is evidence of pneumothorax seen in this image?",
+        "strategy": "Voice change (passive); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pneumothorax in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pneumothorax?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any evidence of pneumothorax visible in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of pneumothorax?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is evidence of pneumothorax demonstrated by this image?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Are we seeing evidence of pneumothorax in this image?",
+        "strategy": "Register shift (conversational)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pneumothorax in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pneumothorax?",
+        "strategy": "Phrasing variation (question construction change)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Are there signs of pneumothorax in this image?",
+        "strategy": "Synonym replacement (evidence \u2192 signs)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is evidence of pneumothorax present in this image?",
+        "strategy": "Synonym replacement (present) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can evidence of pneumothorax be identified in this image?",
+        "strategy": "Voice change (passive with modal) + synonym replacement (identified)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "In this image, is there any indication of pneumothorax?",
+        "strategy": "Clause reordering + synonym replacement (indication)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pneumothorax in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show a pneumothorax?",
+        "strategy": "Synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pneumothorax visible in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, are there any signs of pneumothorax?",
+        "strategy": "Clause reordering; synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is pneumothorax evident on this image?",
+        "strategy": "Synonym replacement; register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is a pneumothorax demonstrated by this image?",
+        "strategy": "Voice change (active\u2192passive); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 20,
+      "no": 4
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pulmonary edema in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/6ad819bb-bae74eb9-7b663e90-b8deabd7-57f8054a.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pulmonary edema in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pulmonary edema?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is evidence of pulmonary edema present in this image?",
+        "strategy": "voice change (active\u2192passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of pulmonary edema?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can pulmonary edema be seen in this image?",
+        "strategy": "phrasing variation + voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Are there signs of pulmonary edema in this image?",
+        "strategy": "synonym replacement (evidence\u2192signs)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pulmonary edema in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show signs of pulmonary edema?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pulmonary edema evident in this image?",
+        "strategy": "Voice change (active\u2192passive phrasing)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there any indication of pulmonary edema?",
+        "strategy": "Clause reordering + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does this image demonstrate pulmonary oedema?",
+        "strategy": "Register shift (formal verb) + UK spelling variant",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is evidence of pulmonary edema present in this image?",
+        "strategy": "Phrasing variation (nominalization)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pulmonary edema in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show evidence of pulmonary edema?",
+        "strategy": "Phrasing variation and clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pulmonary edema evident in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can pulmonary edema be identified in this image?",
+        "strategy": "Synonym replacement and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there any sign of pulmonary edema in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is pulmonary edema demonstrated in this image?",
+        "strategy": "Voice change (passive construction)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 15,
+      "no": 3
+    }
+  },
+  {
+    "baseline_question": "is there evidence of pulmonary emphysema in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/ab37274f-b4c1fc04-e2ff24b4-4a130ba3-cd167968.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of pulmonary emphysema in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show signs of pulmonary emphysema?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pulmonary emphysema evident in this image?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is evidence of pulmonary emphysema visible in this image?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does this image provide evidence of pulmonary emphysema?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is evidence of pulmonary emphysema demonstrated by this image?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there evidence of vascular congestion in this image?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/3dc1b72b-7d6efa14-1f9db998-e46ff2db-2cb7375e.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there evidence of vascular congestion in this image?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does this image show vascular congestion?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is vascular congestion present in this image?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In this image, is there evidence of vascular congestion?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is vascular congestion demonstrated in this image?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Please confirm whether this image shows vascular congestion.",
+        "strategy": "register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there fracture in the right rib area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/ea030e7a-2e3b1346-bc518786-7a8fd698-f673b44c.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there fracture in the right rib area?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a fracture present in the right rib region?",
+        "strategy": "Synonym replacement + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the right rib area show a fracture?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any fracture of the right rib area?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "In the right rib area, is there a fracture?",
+        "strategy": "Clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there a break in the right rib area?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "no": 5,
+      "yes": 1
+    }
+  },
+  {
+    "baseline_question": "is there fracture in the right-sided rib area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/2a2277a9-b0ded155-c0de8eb9-c124d10e-82c5caab.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there fracture in the right-sided rib area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a fracture present in the right-sided rib area?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "In the right-sided rib area, is there a fracture?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is the right-sided rib area fractured?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does the right side of the ribcage show a fracture?",
+        "strategy": "register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Are there any fractures in the right rib region?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there free subdiaphragmatic gas?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/fa771fa1-d9571d07-bff8f655-327734a7-6e10b29d.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there free subdiaphragmatic gas?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is free gas present beneath the diaphragm?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Under the diaphragm, is any free gas present?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there free subdiaphragmatic air?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can the presence of free subdiaphragmatic gas be confirmed?",
+        "strategy": "register shift + voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is free air detected under the diaphragm?",
+        "strategy": "voice change + synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there granuloma?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/d98d5096-a32483d3-669ed39b-bc81eafb-5e251563.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there granuloma?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a granuloma present?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does a granuloma exist?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Can you confirm whether a granuloma is present?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is it the case that a granuloma is present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there a granuloma?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "no": 4,
+      "yes": 2
+    }
+  },
+  {
+    "baseline_question": "is there hernia?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/68b5c4b1-227d0485-9cc38c3f-7b84ab51-4b472714.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there hernia?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there a hernia?",
+        "strategy": "phrasing variation (grammatical normalization)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a hernia present?",
+        "strategy": "voice change (predicate structure)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does a hernia exist?",
+        "strategy": "synonym replacement (be there\u2192exist)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there any hernia?",
+        "strategy": "phrasing variation (quantifier insertion)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Presence of a hernia?",
+        "strategy": "phrasing variation (nominalization)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.3333333333333333,
+    "answer_distribution": {
+      "no": 2,
+      "yes": 4
+    }
+  },
+  {
+    "baseline_question": "is there hyperexpanded lung?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/4ee6a7f9-915c4c58-7dd1082b-6d03b302-aef0b6d9.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there hyperexpanded lung?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is hyperexpansion of the lung present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there a hyperexpanded lung?",
+        "strategy": "Phrasing variation (article insertion)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does the lung appear hyperexpanded?",
+        "strategy": "Register shift (conversational phrasing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can lung hyperexpansion be identified?",
+        "strategy": "Voice change (passive construction)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there lung hyperinflation?",
+        "strategy": "Synonym replacement (hyperexpanded\u2192hyperinflated)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there intrathoracic process?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/7f23b996-22544258-fcf2fbc3-f8dbf8e7-b6c0e4c5.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there intrathoracic process?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is an intrathoracic process present?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does an intrathoracic process exist?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any process within the thorax?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Within the thorax, is there any process?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there a process inside the chest cavity?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there kyphosis?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/b75df1bd-0f22d631-52d73526-2ae7b85a-d843b39d.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there kyphosis?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is kyphosis present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Kyphosis present?",
+        "strategy": "Register shift (telegraphic phrasing)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is kyphosis observed?",
+        "strategy": "Voice change (observational phrasing)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is kyphosis noted?",
+        "strategy": "Phrasing variation (reporting verb)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Kyphosis, is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "no": 6
+    }
+  },
+  {
+    "baseline_question": "is there opacity in the left hemithorax area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/51b5892c-e54ed6e6-59ff70db-fd0b8509-1792398e.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there opacity in the left hemithorax area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does the left hemithorax show any opacity?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is an opacity present in the left hemithorax region?",
+        "strategy": "Synonym replacement + presence phrasing",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the left hemithorax, is there any opacity?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Can any opacity be seen within the left hemithorax?",
+        "strategy": "Voice change (passive observation) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there any opacification in the left hemithorax?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there opacity in the right basilar area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/81bca127-0c416084-67f8033c-ecb26476-6d1ecf60.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there opacity in the right basilar area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does the right basilar region show any opacity?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is an opacity present at the right lung base?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the right basilar area, is there any opacity?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is any opacity noted in the right basilar region?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can an opacity be seen in the right basilar area?",
+        "strategy": "Phrasing variation with modal",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there opacity?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/9b314ad7-fbcb0422-6db62dfc-732858d0-a5527d8b.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there opacity?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is opacity present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does an opacity exist?",
+        "strategy": "Synonym replacement + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any opacity?",
+        "strategy": "Phrasing variation (quantifier)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Opacity present?",
+        "strategy": "Register shift (telegraphic)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is an opacity observed?",
+        "strategy": "Voice change (passive) + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there opacity?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is opacity present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any opacity?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does opacity exist?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is opacity observed?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Do you see opacity?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 12
+    }
+  },
+  {
+    "baseline_question": "is there pleural effusion in the right area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/3bea0373-0d10dd77-1cac5b90-651be924-d343b184.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion in the right area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a right-sided pleural effusion present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "On the right side, is there pleural effusion?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Do you see pleural effusion on the right?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Please determine whether pleural effusion is present on the right.",
+        "strategy": "Phrasing variation (imperative form)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does the right pleural space have an effusion?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pleural effusion in the right,left area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/38f6981f-10343eb8-7c974e21-458d5218-f29f1617.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion in the right,left area?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pleural effusion present on the right side or the left side?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there a pleural effusion on the right or on the left?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "On the right or the left, is pleural effusion present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is a pleural effusion seen on the right side or on the left side?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does the right or the left pleural space show a pleural effusion?",
+        "strategy": "Register shift (formal)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.16666666666666666,
+    "answer_distribution": {
+      "no": 1,
+      "yes": 5
+    }
+  },
+  {
+    "baseline_question": "is there pleural effusion?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/02aa804e-bde0afdd-112c0b34-7bc16630-4e384014.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pleural effusion present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does a pleural effusion exist?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the pleural space, is there an effusion?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any pleural effusion?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is the presence of pleural effusion noted?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pleural effusion present?",
+        "strategy": "voice change to passive phrasing",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there any pleural effusion?",
+        "strategy": "phrasing variation with quantifier",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any evidence of pleural effusion?",
+        "strategy": "register shift to concise/elliptical question",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Pleural effusion: is it present?",
+        "strategy": "clause reordering and inversion",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is there a pleural fluid collection?",
+        "strategy": "synonym replacement for 'pleural effusion'",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pleural effusion present?",
+        "strategy": "Voice change; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there fluid in the pleural space?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any pleural effusion?",
+        "strategy": "Register shift; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is an effusion present in the pleural cavity?",
+        "strategy": "Synonym replacement; clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is pleural effusion present or not?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pleural effusion present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Pleural effusion present?",
+        "strategy": "elliptical phrasing and clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any pleural effusion?",
+        "strategy": "elliptical phrasing (concise)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there evidence of pleural effusion?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is a pleural fluid accumulation present?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pleural effusion?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pleural effusion present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does a pleural effusion exist?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Any pleural effusion?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there an effusion in the pleural cavity?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Pleural effusion: is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 30
+    }
+  },
+  {
+    "baseline_question": "is there pleural parenchymal scarring in the biapical area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/5b135035-4708084f-3bb6d230-9db72889-2aa90c14.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural parenchymal scarring in the biapical area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pleuroparenchymal scarring present in the biapical area?",
+        "strategy": "synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Do both lung apices show pleural-parenchymal scarring?",
+        "strategy": "phrasing variation; register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there scarring of the pleura and lung parenchyma in the biapical region?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "At the biapical region, is pleural-parenchymal scarring present?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is pleural-parenchymal scarring present at the apices of both lungs?",
+        "strategy": "synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pleural thickening in the biapical area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/edb88e4a-c04f1be7-aefcf3e0-8889542d-692ff7fd.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural thickening in the biapical area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Does the biapical region show pleural thickening?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pleural thickening present at both lung apices?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Are the bilateral apices demonstrating pleural thickening?",
+        "strategy": "register shift (formal)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "In the biapical area, is there pleural thickening?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Are the apical pleurae thickened bilaterally?",
+        "strategy": "voice change / syntactic transformation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pleural thickening?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/f1adcae3-2921c0a8-5d9652f9-4191ecd7-f2a96f35.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pleural thickening?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pleural thickening present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is the pleura thickened?",
+        "strategy": "voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does the pleura show thickening?",
+        "strategy": "phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there thickening of the pleura?",
+        "strategy": "clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does pleural thickening exist?",
+        "strategy": "synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pneumonia in the left upper lobe area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/943486a3-b3fa9ff7-50f5a769-7a62fcbb-f39b6da4.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pneumonia in the left upper lobe area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pneumonia present in the left upper lobe area?",
+        "strategy": "phrasing variation + synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the left upper lobe area show pneumonia?",
+        "strategy": "phrasing variation (subject shift to active)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the left upper lobe area, is there pneumonia?",
+        "strategy": "clause reordering (fronting the location)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is the left upper lobe area affected by pneumonia?",
+        "strategy": "voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is pneumonia located in the left upper lobe area?",
+        "strategy": "synonym replacement + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "yes": 4,
+      "no": 2
+    }
+  },
+  {
+    "baseline_question": "is there pneumonia?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/e8c44648-ff02beea-3d5ff638-dec79b01-7df71a69.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pneumonia?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "is pneumonia present?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "any pneumonia?",
+        "strategy": "Register shift",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "pneumonia present?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "presence of pneumonia?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "pneumonia, is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pneumothorax in the left apical area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/08ee3bce-a3ed7087-0af8769d-de0d3535-1318d234.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pneumothorax in the left apical area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pneumothorax present in the left apical region?",
+        "strategy": "Synonym replacement (present/region) + slight phrasing change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the left apical area contain a pneumothorax?",
+        "strategy": "Phrasing variation with synonym (contain)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there a left apical pneumothorax?",
+        "strategy": "Compression into compound adjective + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "At the apex of the left lung, is there a pneumothorax?",
+        "strategy": "Clause reordering + synonym (apex of the left lung)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is a pneumothorax located in the left lung apex?",
+        "strategy": "Voice/structure change (located) + synonym (apex)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pneumothorax in the right area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/1e647043-eed3576e-3123c170-780cb897-93a89502.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pneumothorax in the right area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there a right-sided pneumothorax?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a pneumothorax present on the right?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "On the right, is there a pneumothorax?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there pneumothorax in the right hemithorax?",
+        "strategy": "Synonym replacement (technical term)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is a pneumothorax seen on the right side?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pneumothorax?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/d0b71acc-b5a62046-bbb5f6b8-7b173b85-65cdf738.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pneumothorax?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there a pneumothorax?",
+        "strategy": "phrasing variation (article insertion)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a pneumothorax present?",
+        "strategy": "register shift (more formal)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there any pneumothorax?",
+        "strategy": "phrasing variation (quantifier)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Any pneumothorax present?",
+        "strategy": "register shift (telegraphic/elliptical)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Does a pneumothorax exist?",
+        "strategy": "synonym replacement (there is \u2192 exist)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pneumothorax?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there a pneumothorax?",
+        "strategy": "phrasing variation (article insertion)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is a pneumothorax present?",
+        "strategy": "phrasing variation (use of 'present')",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Does a pneumothorax exist?",
+        "strategy": "synonym replacement (is\u2192exist)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is pneumothorax seen?",
+        "strategy": "voice change (observational/passive phrasing)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any pneumothorax present?",
+        "strategy": "register shift and ellipsis",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 0,
+        "question": "is there pneumothorax?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is a pneumothorax present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is pneumothorax present?",
+        "strategy": "Register shift (elliptical/concise)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Pneumothorax present?",
+        "strategy": "Register shift (telegraphic)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is a pneumothorax detected?",
+        "strategy": "Voice change (passive)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is PTX present?",
+        "strategy": "Synonym replacement (abbreviation)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "yes": 12,
+      "no": 6
+    }
+  },
+  {
+    "baseline_question": "is there pulmonary arterial hypertension?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/6ad03ed1-97ee17ee-9cf8b320-f7011003-cd93b42d.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pulmonary arterial hypertension?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pulmonary arterial hypertension present?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there PAH?",
+        "strategy": "Synonym/abbreviation replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is PAH present?",
+        "strategy": "Synonym/abbreviation replacement + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Presence of pulmonary arterial hypertension?",
+        "strategy": "Register shift (elliptical question)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Pulmonary arterial hypertension \u2014 is it present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there pulmonary edema?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/54affd39-8bf24209-232bac8a-df6c277a-398ee8a5.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there pulmonary edema?",
+        "strategy": "baseline",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pulmonary edema present?",
+        "strategy": "phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is there pulmonary oedema?",
+        "strategy": "spelling variant (American\u2192British)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is lung edema present?",
+        "strategy": "synonym replacement (pulmonary\u2192lung)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 4,
+        "question": "Pulmonary edema: is it present?",
+        "strategy": "clause reordering / punctuation variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any pulmonary edema?",
+        "strategy": "register shift (conversational/elliptical)",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "no": 6
+    }
+  },
+  {
+    "baseline_question": "is there scarring in the both lung apices area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/469d0d94-3dad5068-efac76ef-a28cc502-68fe6275.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there scarring in the both lung apices area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is there scar tissue in the apical areas of both lungs?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is scarring present at both pulmonary apices?",
+        "strategy": "Register shifts",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Do both lung apices show scarring?",
+        "strategy": "Voice changes",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Are both lung apices scarred?",
+        "strategy": "Phrasing variations",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "In both lung apical regions, is there scarring?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there subcutaneous emphysema?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/9b1a8a51-2b8e4a04-1719059d-aa6bc888-7ace612b.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there subcutaneous emphysema?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is subcutaneous emphysema present?",
+        "strategy": "Synonym replacement; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Is the presence of subcutaneous emphysema noted?",
+        "strategy": "Voice change (passive); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is subcutaneous emphysema observed?",
+        "strategy": "Voice change (passive); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Subcutaneous emphysema: is it present?",
+        "strategy": "Clause reordering; phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Any subcutaneous emphysema?",
+        "strategy": "Register shift (conversational); phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  },
+  {
+    "baseline_question": "is there tortuosity of the thoracic aorta?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/b5f871e6-fc68f8fa-7580a463-b7674531-c7033269.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there tortuosity of the thoracic aorta?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is the thoracic aorta tortuous?",
+        "strategy": "Voice change",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the thoracic aorta exhibit tortuosity?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is tortuosity present in the thoracic aorta?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there thoracic aortic tortuosity?",
+        "strategy": "Phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is tortuosity of the thoracic aorta present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 0.8333333333333334,
+    "answer_distribution": {
+      "yes": 5,
+      "no": 1
+    }
+  },
+  {
+    "baseline_question": "is there vascular congestion in the pulmonary area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/9fd47edd-07087209-b901811e-3e9e5f50-f382f611.jpg",
+    "ground_truth": "yes",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there vascular congestion in the pulmonary area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is pulmonary vascular congestion present?",
+        "strategy": "Phrasing variation + synonym replacement",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      },
+      {
+        "variant_index": 2,
+        "question": "In the pulmonary area, is vascular congestion present?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "Is there vascular congestion within the lungs?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Does the pulmonary region show vascular congestion?",
+        "strategy": "Register shift + phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Is vascular congestion noted in the pulmonary area?",
+        "strategy": "Voice change (passive) + phrasing variation",
+        "raw_answer": "No",
+        "extracted_answer": "no"
+      }
+    ],
+    "consistency_rate": 0.6666666666666666,
+    "answer_distribution": {
+      "yes": 4,
+      "no": 2
+    }
+  },
+  {
+    "baseline_question": "is there vascular redistribution in the lower zone area?",
+    "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/cfb03587-782edf6c-1bf392e1-98196cd5-365d69e8.jpg",
+    "ground_truth": "no",
+    "variants": [
+      {
+        "variant_index": 0,
+        "question": "is there vascular redistribution in the lower zone area?",
+        "strategy": "baseline",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 1,
+        "question": "Is vascular redistribution present in the lower zone area?",
+        "strategy": "Synonym replacement and phrasing variation",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 2,
+        "question": "Does the lower zone area show vascular redistribution?",
+        "strategy": "Voice change (existential to active)",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 3,
+        "question": "In the lower zone area, is there vascular redistribution?",
+        "strategy": "Clause reordering",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 4,
+        "question": "Is there redistribution of vessels in the lower zone area?",
+        "strategy": "Synonym replacement",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      },
+      {
+        "variant_index": 5,
+        "question": "Can vascular redistribution be identified in the lower zone area?",
+        "strategy": "Phrasing variation with modal passive",
+        "raw_answer": "Yes",
+        "extracted_answer": "yes"
+      }
+    ],
+    "consistency_rate": 1.0,
+    "answer_distribution": {
+      "yes": 6
+    }
+  }
+]

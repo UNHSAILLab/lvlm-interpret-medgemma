@@ -1,0 +1,101 @@
+dicom_id,question,ground_truth,model_answer,correct
+02aa804e-bde0afdd-112c0b34-7bc16630-4e384014,is there pleural effusion?,no,yes,False
+2a2277a9-b0ded155-c0de8eb9-c124d10e-82c5caab,is there fracture in the right-sided rib area?,no,yes,False
+68b5c4b1-227d0485-9cc38c3f-7b84ab51-4b472714,is there hernia?,no,no,True
+ea030e7a-2e3b1346-bc518786-7a8fd698-f673b44c,is there fracture in the right rib area?,no,no,True
+096052b7-d256dc40-453a102b-fa7d01c6-1b22c6b4,is there air collection?,no,yes,False
+2a280266-c8bae121-54d75383-cac046f4-ca37aa16,is there evidence of effusion in this image?,no,yes,False
+b75df1bd-0f22d631-52d73526-2ae7b85a-d843b39d,is there kyphosis?,yes,no,False
+d0b71acc-b5a62046-bbb5f6b8-7b173b85-65cdf738,is there pneumothorax?,no,yes,False
+9b314ad7-fbcb0422-6db62dfc-732858d0-a5527d8b,is there opacity?,yes,yes,True
+c50494f1-90e2bff5-e9189550-1a4562fd-6ab5204c,is there evidence of fracture in this image?,yes,no,False
+8e3f2822-0c1d4b71-2a265bbf-5b96e531-ccf5fa30,is there evidence of metastasis in this image?,yes,no,False
+f1adcae3-2921c0a8-5d9652f9-4191ecd7-f2a96f35,is there pleural thickening?,yes,yes,True
+88498b37-c21dc7ba-bc202800-b517a62d-f7ac5bcf,is there cardiomegaly in the lungs area?,yes,yes,True
+6ad03ed1-97ee17ee-9cf8b320-f7011003-cd93b42d,is there pulmonary arterial hypertension?,yes,yes,True
+943486a3-b3fa9ff7-50f5a769-7a62fcbb-f39b6da4,is there pneumonia in the left upper lobe area?,no,yes,False
+cfb03587-782edf6c-1bf392e1-98196cd5-365d69e8,is there vascular redistribution in the lower zone area?,no,yes,False
+6ad819bb-bae74eb9-7b663e90-b8deabd7-57f8054a,is there evidence of pulmonary edema in this image?,yes,yes,True
+a75a1fbe-802065ad-717eb7c1-e2ce3552-646276a6,is there calcification?,yes,yes,True
+54affd39-8bf24209-232bac8a-df6c277a-398ee8a5,is there pulmonary edema?,yes,no,False
+c7526473-7b7214ee-a5d58d12-29d1f67f-9f4edf00,is there elongation of the descending aorta?,yes,yes,True
+925b9496-a956d7b2-05185e52-bb33313b-c06ee522,is the pleural effusion bilateral?,yes,yes,True
+28fad2ac-d6001216-b4f72c5b-2d4d452e-17b6c9a5,is there evidence of consolidation in this image?,no,yes,False
+07b9ddda-9a4a1e1a-4495463d-4c77d947-ed368713,is there evidence of demineralization in this image?,yes,yes,True
+1fe73f8e-036bd24e-4578c891-33c1746e-864884a7,is there evidence of pneumothorax in this image?,no,yes,False
+3b8b1b7d-054490d5-385641e7-ff43d2c8-9505f058,is there edema?,yes,no,False
+a917c883-720a5bbf-02c84fc6-98ad00ac-c562ff80,is there atelectasis in the left base area?,yes,yes,True
+5e54fc9c-37c49834-9ac3b915-55811712-9d959d26,is there evidence of atelectasis in this image?,no,yes,False
+0009a9fb-eb905e90-824cad7c-16d40468-007f0038,is there evidence of pleural effusion in this image?,no,no,True
+8061113f-c019f3ae-fd1b7c54-33e8690d-be838099,is there atelectasis?,yes,yes,True
+d69651ae-dc7bacca-a05efc02-1d5882cd-001c77c4,is there pneumothorax?,no,yes,False
+a83c7ff9-2d42639c-6ddebd0e-6b67809b-38210026,is there evidence of atelectasis in this image?,yes,yes,True
+19e55bee-714bb193-0968d683-5bf655a5-7b5caba9,is there evidence of atelectasis in this image?,yes,yes,True
+edb88e4a-c04f1be7-aefcf3e0-8889542d-692ff7fd,is there pleural thickening in the biapical area?,yes,yes,True
+3892f17f-8fa034e8-e9b81865-01c48bbb-b9452626,is there evidence of hyperinflation in this image?,yes,yes,True
+469d0d94-3dad5068-efac76ef-a28cc502-68fe6275,is there scarring in the both lung apices area?,yes,yes,True
+7b25b3ed-e780a527-319cb7b3-02d5d071-f1cddee9,is there cardiomegaly?,yes,yes,True
+ebf48d65-7e780cd5-59118fba-50977097-3720cc7e,is there bronchiectasis?,yes,yes,True
+96bfb531-d6621042-58ea2067-b155e38f-f76e305b,is there pleural effusion?,no,yes,False
+d5f12914-f14ffd99-3ff2ee54-6f0cbd0c-4c411a2c,is there evidence of pleural effusion in this image?,no,yes,False
+ee31086f-cbf22f9d-9553d506-2bcd4167-0e1e17bf,is there evidence of pleural thickening in this image?,yes,yes,True
+1e583282-042438d1-4c0d5389-f3c06b76-e9a29eaa,is there pleural effusion?,no,yes,False
+9f5446a9-46ea84a3-6806d8b7-2c0f6d4d-38799159,is there evidence of pneumonia in this image?,yes,no,False
+52d6c812-26dfed36-97e26b11-1fa88177-e8b8b150,is there evidence of pneumothorax in this image?,no,yes,False
+a6617202-f5a8661d-78eb1442-037bf3e4-3dd8967f,is there evidence of edema in this image?,no,yes,False
+4ee6a7f9-915c4c58-7dd1082b-6d03b302-aef0b6d9,is there hyperexpanded lung?,yes,yes,True
+3fc658da-23a5d1b2-68e913fd-bf919f75-b7113290,is there atelectasis in the bibasilar area?,yes,yes,True
+7f23b996-22544258-fcf2fbc3-f8dbf8e7-b6c0e4c5,is there intrathoracic process?,no,yes,False
+7561a64e-145a404e-f12d8f04-3b19c4e1-3de6e5a0,is there atelectasis?,yes,yes,True
+5b135035-4708084f-3bb6d230-9db72889-2aa90c14,is there pleural parenchymal scarring in the biapical area?,yes,yes,True
+8d4eb7a8-0d3c4f7e-fed33834-ef1c6ffd-e01d0967,is there consolidation?,no,yes,False
+f8d7008c-ed9b419b-7f0c85b0-acf404a4-5afe3f3d,is there effusion?,no,yes,False
+79863f89-595bf19b-3c7b514a-42969d9b-eff42368,is there evidence of cardiomegaly in this image?,yes,yes,True
+c1ad3e27-62d05ef8-95018fe3-b8bcfe4b-bbba0e1f,is there cardiomegaly in the mediastinal area?,yes,yes,True
+9fd47edd-07087209-b901811e-3e9e5f50-f382f611,is there vascular congestion in the pulmonary area?,yes,yes,True
+7f885b34-699f595b-36446207-4f146366-55dfb63f,is there consolidation?,no,yes,False
+1f413a3b-78c5a4aa-978ff5ff-f72a424c-b3a51b92,is there pleural effusion?,no,no,True
+00dccb6d-d0c6f3d3-96277b9f-0ee6d7aa-08abfc1f,is there consolidation?,no,yes,False
+7f4e7b8d-cacf5a8f-067353ea-f006ed1c-947dc749,is there atelectasis?,yes,yes,True
+dae10c54-dcb7bb1f-428bb377-af3b739e-9b16e579,is there evidence of atelectasis in this image?,yes,yes,True
+66ee3842-a927ac25-a5df697e-f1f36b1f-201b2172,is there evidence of pleural effusion in this image?,no,yes,False
+4a327635-ff0c1380-58766d70-6080047d-3f3d124f,is there atelectasis?,yes,yes,True
+9b1a8a51-2b8e4a04-1719059d-aa6bc888-7ace612b,is there subcutaneous emphysema?,no,yes,False
+547c0b6b-72739eeb-3c33bc3e-3aa73d13-a9a54bd5,is there evidence of pleural effusion in this image?,no,no,True
+2d8a8525-19d0c810-045e1619-ef196132-cd4f1710,is there evidence of pneumothorax in this image?,no,yes,False
+1e647043-eed3576e-3123c170-780cb897-93a89502,is there pneumothorax in the right area?,no,yes,False
+0c27f551-2cc6bf3e-a2e2cabd-97973771-40f1e6ce,is there evidence of pleural thickening in this image?,yes,yes,True
+9ca8f84e-92fac212-e60ac49d-01779362-caa16791,is there evidence of consolidation in this image?,no,yes,False
+ab37274f-b4c1fc04-e2ff24b4-4a130ba3-cd167968,is there evidence of pulmonary emphysema in this image?,no,yes,False
+75a4feeb-09da971a-8852f2d6-5eb13992-42d9a50c,is there evidence of pneumothorax in this image?,no,yes,False
+48edbd44-ca2376ca-059a9f55-3fc8abd1-e13e4b76,is there atelectasis in the right base area?,no,yes,False
+81bca127-0c416084-67f8033c-ecb26476-6d1ecf60,is there opacity in the right basilar area?,no,yes,False
+051b7911-cb00aec9-0b309188-89803662-303ec278,is the pleural effusion bilateral?,yes,yes,True
+3c659977-44aefeb8-cdc200a8-24ea059e-9dd6758c,is there evidence of consolidation in this image?,no,yes,False
+2833b85f-3bb4273f-cffd3794-2bf2cd57-7ddb3f5f,is there edema?,no,no,True
+e8c44648-ff02beea-3d5ff638-dec79b01-7df71a69,is there pneumonia?,yes,yes,True
+7f51d06c-dad16fe6-ff21a632-edc5a3e6-ffa387bf,is there atelectasis in the bibasilar area?,yes,yes,True
+85b903ac-bfc4d6cd-491d2a72-18e7c16e-23d2cafa,is there evidence of opacity in this image?,yes,yes,True
+38f6981f-10343eb8-7c974e21-458d5218-f29f1617,"is there pleural effusion in the right,left area?",yes,no,False
+4e39ddbc-47422ff9-3de977e6-924e3c52-4cac3943,is there atelectasis in the right lower lobe area?,no,yes,False
+54c2ed5c-f4fbc20d-3bf4c783-283c3878-e9eb320d,is there evidence of pleural effusion in this image?,yes,yes,True
+40a4d537-de28a3ab-aa746c28-750aea7d-2965bcdb,is there opacity?,yes,yes,True
+852306b6-02fc04aa-82d30dbf-0c2dd18d-5c9ef054,is the pleural effusion bilateral?,yes,yes,True
+3bea0373-0d10dd77-1cac5b90-651be924-d343b184,is there pleural effusion in the right area?,no,yes,False
+06c9ad0d-eba8bb4c-7f1216e8-3164684d-4a4b228d,is there evidence of opacity in this image?,yes,yes,True
+d98d5096-a32483d3-669ed39b-bc81eafb-5e251563,is there granuloma?,no,no,True
+471418ab-0bfd6700-6bb770d0-07f7f6a3-2ce2d9c2,is there evidence of atelectasis in this image?,yes,yes,True
+217e6a56-b4a78227-a2acc34d-3b571d4a-27b9746a,is there evidence of pleural effusion in this image?,yes,yes,True
+bdf7f3f9-17832c70-9048e935-65663ff2-13f0814e,is there pneumothorax?,no,yes,False
+e325a8d1-1d6b0dca-404efabc-204c6bbd-599788f0,is there atelectasis in the bibasilar area?,yes,yes,True
+3dc1b72b-7d6efa14-1f9db998-e46ff2db-2cb7375e,is there evidence of vascular congestion in this image?,yes,yes,True
+0780573c-30edcc44-42f1084d-e77f7ebf-8a7dd236,is there evidence of pleural effusion in this image?,yes,yes,True
+b5f871e6-fc68f8fa-7580a463-b7674531-c7033269,is there tortuosity of the thoracic aorta?,no,yes,False
+12622d34-1a419a0d-6809a110-318f0fb1-eb8635e6,is there consolidation?,no,yes,False
+08ee3bce-a3ed7087-0af8769d-de0d3535-1318d234,is there pneumothorax in the left apical area?,no,yes,False
+7254cc41-a1055fd0-f387a81f-1f60ec41-4ae4ac3e,is there pleural effusion?,yes,yes,True
+cc0b5db2-cc391879-a10b0ccf-5e554f89-37f1cf99,is there evidence of fluid overload in this image?,no,yes,False
+2337617e-d39e1d86-bc30b1cf-fa45dcb5-b7ac1695,is there evidence of pulmonary edema in this image?,no,yes,False
+fa771fa1-d9571d07-bff8f655-327734a7-6e10b29d,is there free subdiaphragmatic gas?,no,yes,False
+d999236f-95dcb8b7-a4d20a3f-be538f50-ce13a08e,is there evidence of pulmonary edema in this image?,no,yes,False
+51b5892c-e54ed6e6-59ff70db-fd0b8509-1792398e,is there opacity in the left hemithorax area?,no,yes,False

@@ -1,0 +1,61 @@
+================================================================================
+COMPREHENSIVE ATTENTION ANALYSIS REPORT
+================================================================================
+Generated: 2025-08-26 12:29:20
+
+ANALYSIS SCOPE
+----------------------------------------
+Total Comparisons: 275
+
+Distribution by Answer Change Type:
+  yes→to→no: 13 (4.7%)
+  no→to→yes: 17 (6.2%)
+  yes→to→yes: 117 (42.5%)
+  no→to→no: 128 (46.5%)
+
+DETAILED STATISTICS BY CHANGE TYPE
+----------------------------------------
+
+YES TO NO:
+  Count: 13
+  JS Divergence: 0.1248 ± 0.0186
+    Median: 0.1252
+    Range: [0.0685, 0.1419]
+  Correlation: 0.9275 ± 0.0230
+  Cosine Similarity: 0.9540 ± 0.0140
+
+NO TO YES:
+  Count: 17
+  JS Divergence: 0.1054 ± 0.0185
+    Median: 0.1049
+    Range: [0.0607, 0.1305]
+  Correlation: 0.9429 ± 0.0201
+  Cosine Similarity: 0.9648 ± 0.0123
+
+YES TO YES:
+  Count: 117
+  JS Divergence: 0.1087 ± 0.0238
+    Median: 0.1084
+    Range: [0.0396, 0.1592]
+  Correlation: 0.9472 ± 0.0251
+  Cosine Similarity: 0.9657 ± 0.0163
+
+NO TO NO:
+  Count: 128
+  JS Divergence: 0.1139 ± 0.0226
+    Median: 0.1161
+    Range: [0.0547, 0.1618]
+  Correlation: 0.9303 ± 0.0320
+  Cosine Similarity: 0.9548 ± 0.0204
+
+KEY INSIGHTS
+----------------------------------------
+1. Answer-changing cases JS divergence: 0.1151
+2. No-change cases JS divergence: 0.1113
+3. Difference: 0.0038 (3.4% relative)
+
+4. Overall correlation maintained: 0.938
+5. Small attention shifts correlate with answer changes
+6. Model operates near decision boundaries
+
+================================================================================
