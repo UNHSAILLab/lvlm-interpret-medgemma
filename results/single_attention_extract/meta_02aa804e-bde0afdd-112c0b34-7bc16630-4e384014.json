@@ -4,10 +4,10 @@
   "question": "is there pleural effusion?",
   "generated_answer": "Based on the chest X-ray provided, there is no clear evidence of a significant pleural effusion.",
   "targets": [
-    "effusion",
-    "pleural"
+    "pleural",
+    "effusion"
   ],
-  "mode": "uniform",
+  "mode": "gradcam",
   "image_path": "/home/bsada1/mimic_cxr_hundred_vqa/02aa804e-bde0afdd-112c0b34-7bc16630-4e384014.jpg",
   "csv_path": "/home/bsada1/lvlm-interpret-medgemma/one-pixel-attack/mimic_adapted_questions.csv"
 }

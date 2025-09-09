@@ -171,6 +171,14 @@ def gradcam_on_vision(model, processor, pil_image, prompt, target_token,
     """Grad-CAM fallback when cross-attention unavailable"""
     device = next(model.parameters()).device
     
+    # Temporarily enable gradients for Grad-CAM
+    original_grad_state = {}
+    for name, param in model.named_parameters():
+        original_grad_state[name] = param.requires_grad
+        param.requires_grad = True
+    
+    model.zero_grad()
+    
     messages = [{
         "role": "user",
         "content": [
@@ -229,15 +237,17 @@ def gradcam_on_vision(model, processor, pil_image, prompt, target_token,
     h2 = block.register_full_backward_hook(bwd_hook)
     
     try:
-        out = model(**inputs_gpu, return_dict=True)
-        next_logits = out.logits[:, -1, :]
-        
-        # Encode target token
-        tid = processor.tokenizer.encode(target_token, add_special_tokens=False)[0]
-        loss = next_logits[0, tid]
-        
-        model.zero_grad(set_to_none=True)
-        loss.backward()
+        # Enable gradient computation for this forward/backward pass
+        with torch.enable_grad():
+            out = model(**inputs_gpu, return_dict=True)
+            next_logits = out.logits[:, -1, :]
+            
+            # Encode target token
+            tid = processor.tokenizer.encode(target_token, add_special_tokens=False)[0]
+            loss = next_logits[0, tid]
+            
+            model.zero_grad(set_to_none=True)
+            loss.backward()
         
         h1.remove()
         h2.remove()
@@ -266,11 +276,19 @@ def gradcam_on_vision(model, processor, pil_image, prompt, target_token,
             return np.ones((16, 16)) / 256
         
         cam = cam / (cam.max() + 1e-8)
+        
+        # Restore original gradient state before returning
+        for name, param in model.named_parameters():
+            param.requires_grad = original_grad_state[name]
+        
         return cam.cpu().numpy()
         
     finally:
         h1.remove()
         h2.remove()
+        # Ensure gradient state is restored even if error occurs
+        for name, param in model.named_parameters():
+            param.requires_grad = original_grad_state.get(name, False)
         torch.cuda.empty_cache()
 
 
